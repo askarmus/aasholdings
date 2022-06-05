@@ -3,11 +3,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 import 'swiper/css';
 export const HomeSlider = () => (
   <>
-    <section
-      className="jarallax dark-mode bg-dark py-xxl-5"
-      data-jarallax=""
-      data-speed="0.4"
-    >
+    <section  className="jarallax dark-mode bg-dark py-xxl-5"  data-jarallax=""  data-speed="0.4" >
       <span className="position-absolute top-0 start-0 w-100 h-100 bg-gradient-dark-translucent" />
       <div
         className="jarallax-img"
@@ -71,67 +67,41 @@ export const HomeSlider = () => (
                       Develops web apps which will solve your business problems, improve efficiency and save time and money.
                       </p>
                     </div>
-              
                   </SwiperSlide>
- 
                   <SwiperSlide>
                   <div className="scale-up">
                     <p className='hero mb-2'> Amazon AWS + Microsoft Azure + Google Cloud </p>
                     </div>
-                 
-							
-                    <h2 className="display-2 from-start mb-lg-4">
-                    Cloud Software  <br/> Development
-
-
-                    </h2>
+                    <h2 className="display-2 from-start mb-lg-4"> Cloud Software  <br/> Development </h2>
                     <div className="from-end">
                       <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
                       Leverage the cloud to get highly scalable apps without deploying additional hardware.
                       </p>
                     </div>
-              
                   </SwiperSlide>
-
                   <SwiperSlide>
                   <div className="scale-up">
                     <p className='hero mb-2'> ASP + jQuery + VB + PHP + API </p>
                     </div>
-
-                    <h2 className="display-2 from-start mb-lg-4">
-                    Upgrade Applications
-
-                    </h2>
+                    <h2 className="display-2 from-start mb-lg-4"> Upgrade Applications </h2>
                     <div className="from-end">
                       <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
                       Modernize, renew and enhance the value of your current applications.
                       </p>
                     </div>
-              
                   </SwiperSlide>
-
                   <SwiperSlide>
                   <div className="scale-up">
                     <p className='hero mb-2'> App + Web + Portal </p>
                     </div>
-
-                    <h2 className="display-2 from-start mb-lg-4">
-                    Startup Services
-
-
-                    </h2>
+                    <h2 className="display-2 from-start mb-lg-4"> Startup Services </h2>
                     <div className="from-end">
                       <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
                       Turn your craziest idea into a successful profit making product
-
                       </p>
                     </div>
-              
                   </SwiperSlide>
-          
-
                 </Swiper>
-
               </div>
             </div>
           </div>

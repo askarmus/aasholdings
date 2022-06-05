@@ -15,5 +15,21 @@
 .display-7 {
   font-size: 1.6rem;
 }
-
-
+.big-bg-image {
+  min-height: 350px;
+  background: #f5f5f5 url(https://panalinks.com/wp-content/uploads/2020/09/about-us-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-right{
+  text-align: right;
+}
+.how-we-work-process_wrapper-row_img {
+  padding: 10px;
+  padding-top: 0;
+  position: relative;
+  top: -32px;
+  max-width: 425px;
+  left: 6%;
+}

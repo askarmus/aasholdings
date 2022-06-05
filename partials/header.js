@@ -1,14 +1,17 @@
+import Link from "next/link";
+
 export const Header = () => (
     <header className="header navbar navbar-expand-lg navbar-light bg-light navbar-sticky">
       <div className="container px-3">
-        <a href="index.html" className="navbar-brand pe-3">
+      <Link href="/"> 
+        <a   className="navbar-brand pe-3">
           <img
             src="assets/image/logo.png"
             width={200}
             alt="Silicon"
           />
-          
         </a>
+        </Link>
         <div id="navbarNav" className="offcanvas offcanvas-end">
           <div className="offcanvas-header border-bottom">
             <h5 className="offcanvas-title">Menu</h5>
@@ -27,24 +30,32 @@ export const Header = () => (
                 </a>
               </li>
               <li className="nav-item">
-                <a href="docs/getting-started.html" className="nav-link">
+              <Link href="how-we-work"> 
+                <a   className="nav-link">
                 How we work
                 </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="docs/getting-started.html" className="nav-link">
+              <Link href="technologies"> 
+                <a   className="nav-link">
                 Technologies
                 </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="docs/getting-started.html" className="nav-link">
+              <Link href="about-us"> 
+                <a   className="nav-link">
                 About Us
                 </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a href="docs/getting-started.html" className="nav-link">
+              <Link href="contact-us"> 
+                <a   className="nav-link">
                 Contact Us
                 </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -56,17 +67,11 @@ export const Header = () => (
               target="_blank"
               rel="noopener"
             >
-              <i className="bx bx-cart fs-4 lh-1 me-1" />
-              &nbsp;Buy now
+               Free Consultation
             </a>
           </div>
         </div>
-        <div
-          className="form-check form-switch mode-switch pe-lg-1 ms-auto me-4"
-          data-bs-toggle="mode"
-        >
-          <input type="checkbox" className="form-check-input" id="theme-mode" />
-        </div>
+ 
         <button
           type="button"
           className="navbar-toggler"
@@ -79,8 +84,7 @@ export const Header = () => (
           <span className="navbar-toggler-icon" />
         </button>
         <a href="https://themes.getbootstrap.com/product/silicon-business-technology-template-ui-kit/" className="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
-            <i className="bx bx-cart fs-5 lh-1 me-1"></i>
-            &nbsp;Free Consultation
+             Free Consultation
           </a>
       </div>
     </header>
