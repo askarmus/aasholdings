@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 export const Header = () => (
-    <header className="header navbar navbar-expand-lg navbar-light bg-light navbar-sticky">
+    <header className="header navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container px-3">
       <Link href="/"> 
         <a   className="navbar-brand pe-3">
           <img
-            src="assets/image/logo.png"
+            src="https://ceybex.com/img/logos/logo.png"
             width={200}
             alt="Silicon"
           />
@@ -24,11 +24,25 @@ export const Header = () => (
           </div>
           <div className="offcanvas-body">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a href="components/typography.html" className="nav-link">
-                Services
-                </a>
-              </li>
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <Link href="web-application-development">
+                    <a class="dropdown-item"  >Web Application Development</a>
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="microsoft-azure-cloud">
+                    <a class="dropdown-item">Microsoft Azure Cloud</a>
+                  </Link>
+                </li>
+            
+          </ul>
+        </li>
               <li className="nav-item">
               <Link href="how-we-work"> 
                 <a   className="nav-link">
@@ -36,13 +50,7 @@ export const Header = () => (
                 </a>
                 </Link>
               </li>
-              <li className="nav-item">
-              <Link href="technologies"> 
-                <a   className="nav-link">
-                Technologies
-                </a>
-                </Link>
-              </li>
+ 
               <li className="nav-item">
               <Link href="about-us"> 
                 <a   className="nav-link">

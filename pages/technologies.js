@@ -32,7 +32,7 @@ export default function HowWeWrok() {
             </div>
             <div className=" col-md-6" >
               <img
-                src="assets/image/how-we-work-section-bg-1.svg"
+                src="https://cdn0.iconfinder.com/data/icons/business-and-finance-440/1080/03_Azure-256.png"
                 className="float-start"
                 width={400}
                 alt="Image"

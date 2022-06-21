@@ -4,19 +4,20 @@ import 'swiper/css';
 export const TechStack = () => (
   <>
     <section className="container pb-3 pb-lg-5 mb-3 mt-5">
-    <h1 className="text-center pb-md-2"> 
-    The tech stack designed for building competitive products
 
-    </h1>
-    <p>
-    Just like you, we choose scalable and flexible technologies. The engineering mindset our talents have already solved the challenges of many clients. Unsure how to lead development forward? Your future team will guide you to the most optimal software solutions and strategies.
+    <h1 className="mb-4 text-center">The tech stack designed for building competitive products
+</h1>
 
-
-    </p>
-    <h4 className="text-center pb-md-2">Work with future-proof technologies
-</h4>
-       
  
+      <p className="mb-4 text-center">
+        Just like you, we choose scalable and flexible technologies. The engineering mindset our talents have already solved the challenges of many clients. Unsure how to lead development forward? Your future team will guide you to the most optimal software solutions and strategies.
+        <br></br>
+      </p>
+ 
+ <div className='mt-5 mb-5 text-center'>
+ <strong>Work with future-proof technologies</strong>
+
+ </div>
           <Swiper
         slidesPerView={3}
         spaceBetween={30}
@@ -54,14 +55,12 @@ export const TechStack = () => (
           <div
             className="swiper-slide py-3 swiper-slide-next"
             role="group"
-            aria-label="2 / 6"
-            style={{ width: 212, marginRight: 8 }}
           >
             <a href="#" className="card card-body card-hover px-2 mx-2">
               <img
-                src="https://silicon.createx.studio/assets/img/brands/01.svg"
+                src="https://panalinks.com/wp-content/uploads/2020/08/azure.png"
                 className="d-block mx-auto my-2"
-                width={154}
+                style={{ height: 60 }}
                 alt="Brand"
               />
             </a>
@@ -71,14 +70,13 @@ export const TechStack = () => (
           <div
             className="swiper-slide py-3 swiper-slide-next"
             role="group"
-            aria-label="2 / 6"
-            style={{ width: 212, marginRight: 8 }}
+            
           >
             <a href="#" className="card card-body card-hover px-2 mx-2">
               <img
-                src="https://silicon.createx.studio/assets/img/brands/01.svg"
+                src="https://panalinks.com/wp-content/uploads/2020/08/vue.js.png"
                 className="d-block mx-auto my-2"
-                width={154}
+                style={{ height: 60 }}
                 alt="Brand"
               />
             </a>
@@ -92,9 +90,9 @@ export const TechStack = () => (
           >
             <a href="#" className="card card-body card-hover px-2 mx-2">
               <img
-                src="https://silicon.createx.studio/assets/img/brands/01.svg"
+                src="https://panalinks.com/wp-content/uploads/2020/08/react.png"
                 className="d-block mx-auto my-2"
-                width={154}
+                style={{ height: 60 }}
                 alt="Brand"
               />
             </a>
@@ -108,9 +106,25 @@ export const TechStack = () => (
           >
             <a href="#" className="card card-body card-hover px-2 mx-2">
               <img
-                src="https://silicon.createx.studio/assets/img/brands/01.svg"
+                src="https://thoughtram.io/images/next/angular.svg"
                 className="d-block mx-auto my-2"
-                width={154}
+                style={{ height: 60 }}
+                alt="Brand"
+              />
+            </a>
+          </div>
+        </SwiperSlide> <SwiperSlide>
+          <div
+            className="swiper-slide py-3 swiper-slide-next"
+            role="group"
+            aria-label="2 / 6"
+            style={{ height: 60 }}
+          >
+            <a href="#" className="card card-body card-hover px-2 mx-2">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png"
+                className="d-block mx-auto my-2"
+                style={{ height: 60 }}
                 alt="Brand"
               />
             </a>
@@ -124,9 +138,9 @@ export const TechStack = () => (
           >
             <a href="#" className="card card-body card-hover px-2 mx-2">
               <img
-                src="https://silicon.createx.studio/assets/img/brands/01.svg"
+                src="https://panalinks.com/wp-content/uploads/2020/08/node-js.png"
                 className="d-block mx-auto my-2"
-                width={154}
+                style={{ height: 60 }}
                 alt="Brand"
               />
             </a>
@@ -140,9 +154,9 @@ export const TechStack = () => (
           >
             <a href="#" className="card card-body card-hover px-2 mx-2">
               <img
-                src="https://silicon.createx.studio/assets/img/brands/01.svg"
+                src="https://panalinks.com/wp-content/uploads/2020/08/mongodb.png"
                 className="d-block mx-auto my-2"
-                width={154}
+                style={{ height: 60 }}
                 alt="Brand"
               />
             </a>
@@ -156,25 +170,9 @@ export const TechStack = () => (
           >
             <a href="#" className="card card-body card-hover px-2 mx-2">
               <img
-                src="https://silicon.createx.studio/assets/img/brands/01.svg"
+                src="https://cdn-images-1.medium.com/max/1200/1*nE4OFcqk2kx2-Lzhey8QKA.png"
                 className="d-block mx-auto my-2"
-                width={154}
-                alt="Brand"
-              />
-            </a>
-          </div>
-        </SwiperSlide> <SwiperSlide>
-          <div
-            className="swiper-slide py-3 swiper-slide-next"
-            role="group"
-            aria-label="2 / 6"
-            style={{ width: 212, marginRight: 8 }}
-          >
-            <a href="#" className="card card-body card-hover px-2 mx-2">
-              <img
-                src="https://silicon.createx.studio/assets/img/brands/01.svg"
-                className="d-block mx-auto my-2"
-                width={154}
+                style={{ height: 60 }}
                 alt="Brand"
               />
             </a>

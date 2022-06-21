@@ -2,8 +2,8 @@ export const PageInnerHeader = ({title, subTitle, showButton}) => (
   <>
     <section className="position-relative bg-dark py-5 big-bg-image scheme-light">
       <span
-        className="position-absolute top-0 start-0 w-100 h-100"
-        style={{ backgroundColor: "rgba(255, 255, 255, .05)" }}
+        className="position-absolute top-0 start-0 w-100 h-100 lgre"
+         
       />
       <div className="container position-relative zindex-5   my-xl-3 py-1 py-md-4 py-lg-5">
         <p className="lead text-light text-left opacity-70 mb-3">{subTitle}</p>

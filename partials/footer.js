@@ -178,8 +178,8 @@ export const Footer = () => (
               </div>
               <div className="col-xl-4 col-lg-5 pt-2 pt-lg-0">
                 <h6 className="mb-2">Contact Us</h6>
-                <a href="mailto:email@example.com" className="fw-medium">
-                  email@example.com
+                <a href="mailto:team@ceybex.com" className="fw-medium">
+                  team@ceybex.com
                 </a>
               </div>
             </div>

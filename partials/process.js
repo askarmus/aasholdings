@@ -44,7 +44,7 @@ export const Process = () => (
     <div className="col text-center border-end">
       <div className="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
       <img
-          src="https://silicon.createx.studio/assets/img/landing/software-company/features/01.svg"
+          src="https://silicon.createx.studio/assets/img/landing/software-company/features/02.svg"
           width={32}
           alt="Icon"
         />
@@ -60,7 +60,7 @@ We have rich experience to convert your concepts into successful apps
     <div className="col text-center border-end">
       <div className="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
       <img
-          src="https://silicon.createx.studio/assets/img/landing/software-company/features/01.svg"
+          src="https://silicon.createx.studio/assets/img/landing/software-company/features/03.svg"
           width={32}
           alt="Icon"
         />
@@ -76,7 +76,7 @@ Deploy your apps on iTunes, Play store and Cloud based serviecs
     <div className="col text-center">
       <div className="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
         <img
-          src="https://silicon.createx.studio/assets/img/landing/software-company/features/01.svg"
+          src="https://silicon.createx.studio/assets/img/landing/software-company/features/04.svg"
           width={32}
           alt="Icon"
         />

@@ -1,5 +1,5 @@
 export const WhoWeAre = () => (
-    <section className="container pt-5 mt-2 mt-md-4 mt-lg-5">
+    <section className="container">
       <div className="row pt-xl-3">
         <div className="col-md-5 text-center text-md-start pb-5">
           <h1 className="mb-4">Who We Are
@@ -21,7 +21,7 @@ export const WhoWeAre = () => (
         </div>
         <div className="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
           <img
-            src="https://silicon.createx.studio/assets/img/landing/software-company/about-img.jpg"
+            src="https://www.crazysoftsolutions.com/assets/img/illustrations/main%2001-01.jpg"
             className="rounded-3 shadow-sm"
             alt="Image"
           />

@@ -22,7 +22,7 @@ export const Review = () => (
                 <SwiperSlide >
 
                     <div className='text-center'>
-                        <p className='display-7'>I would also like to <span className="cstm-testimonial-txt ">compliment you for developing such an excellent app. </span> It was great pleasure working with a lovely bunch of professionals in your team.</p>
+                        <p className='display-8'>I would also like to <span className="cstm-testimonial-txt ">compliment you for developing such an excellent app. </span> It was great pleasure working with a lovely bunch of professionals in your team.</p>
 
                         <figcaption className="d-flex align-items-center  justify-content-center ps-4 pt-4">
                             <img
@@ -43,7 +43,7 @@ export const Review = () => (
                 <SwiperSlide >
 
                     <div className='text-center'>
-                    <p className='display-7'>We are using <span class="cstm-testimonial-txt"> Ceybex services for a number of years </span> and are happy with their professional approach.</p>
+                    <p className='display-8'>We are using <span class="cstm-testimonial-txt"> Ceybex services for a number of years </span> and are happy with their professional approach.</p>
                         <figcaption className="d-flex align-items-center justify-content-center ps-4 pt-4">
                             <img
                                 src="https://silicon.createx.studio/assets/img/avatar/16.jpg"
