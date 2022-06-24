@@ -2391,8 +2391,8 @@ textarea.form-control-lg{
 }
 .btn-primary{
    color:#000;
-   background-color:#ff7e00;
-   border-color:#ff7e00;
+   background-color:#3399a1;
+   border-color:#3399a1;
    box-shadow:unset
 }
 .btn-primary:hover{
@@ -5367,7 +5367,7 @@ textarea.form-control-lg{
    box-shadow:none !important
 }
 .shadow-primary{
-   box-shadow:0 .5rem 1.125rem -0.5rem rgba(99,102,241,.9) !important
+   box-shadow:0 0.5rem 1.125rem -0.5rem rgb(51 153 161) !important
 }
 .shadow-secondary{
    box-shadow:0 .5rem 1.125rem -0.5rem rgba(19,16,34,.15) !important
@@ -11933,8 +11933,8 @@ hr.dropdown-divider{
    border-radius:50%
 }
 .accordion-button:not(.collapsed)::after{
-   background-color:#6366f1;
-   box-shadow:0 -0.5rem 1.125rem -0.5rem rgba(99,102,241,.9)
+    background-color: #3399a1;
+    box-shadow: 0 -0.5rem 1.125rem -0.5rem rgb(51 153 161);
 }
 .breadcrumb{
    font-weight:600
@@ -12568,7 +12568,7 @@ a.badge{
    height:.3125rem;
    transition:width .2s ease-in-out,height .2s ease-in-out,background-color .2s ease-in-out;
    border-radius:50rem;
-   background-color:#ff7e00;
+   background-color:#3399a1;
    opacity:1
 }
 .swiper-pagination-bullet-active{
@@ -14263,7 +14263,7 @@ img-comparison-slider:focus{
 .hero {
     text-transform: uppercase;
     font-weight: 600;
-    color: #0288d1;
+    color: #3399a1;
 }
 .cstm-testimonial-txt{
    font-weight:bold;
@@ -14307,12 +14307,7 @@ img-comparison-slider:focus{
 .c-white{
   color: #fff !important;
 }
-
-.our-Approach {
-    
-    background-color: rgb(249, 217, 78);
-    
-}
+ 
 
   .top-small-heading {
     font-size: 20px;
@@ -14325,12 +14320,46 @@ img-comparison-slider:focus{
     letter-spacing: 2px;
 }
 
-p.largeText  {
-    width: 100%;
-    font-size: 28px;
-    line-height: 1.47;
-    letter-spacing: -.5px;
-    color: #444;
+ 
+.regular-text {
+    font-size: 0.8rem;
+}
+ 
+@media only screen and (min-width: 1400px) {
+ .service-item {
+    margin-right: 15%;
+}
 }
 
- 
+@media only screen and (min-width: 1300px) {
+ .service-item {
+    margin-right: 13%;
+}
+}
+@media only screen and (min-width: 1200px) {
+  .service-item {
+    margin-right: 11%;
+}
+} 
+
+ .communication-location span img {
+    margin-right: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+
+.communication-location p {
+    margin-bottom: 0;
+}
+  .communication-location div {
+    padding: 0 0 .3rem;
+}
+.communication-location p {
+    font-size: 1.0rem;
+    line-height: 1.6rem;
+    color: white;
+}
+.link-white{
+    color: white;
+    text-decoration: none;
+}

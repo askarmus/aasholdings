@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const WhoWeAre = () => (
     <section className="container">
       <div className="row pt-xl-3">
@@ -10,14 +12,14 @@ export const WhoWeAre = () => (
           <p className="fs-lg pb-lg-3 mb-4">
           The team can handle the most complex projects writing thousands of lines of code, using modern frameworks and deploying finished projects on App stores, Microsoft Azure, Amazon AWS or Google cloud.
           </p>
- 
+          
+          <Link href="about-us"> 
           <a
-            href="about-v2.html"
             className="btn btn-primary shadow-primary btn-lg"
           >
             More about us
           </a>
- 
+          </Link>
         </div>
         <div className="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
           <img

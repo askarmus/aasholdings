@@ -6,7 +6,7 @@ export const Header = () => (
       <Link href="/"> 
         <a   className="navbar-brand pe-3">
           <img
-            src="https://ceybex.com/img/logos/logo.png"
+            src="/assets/Image/logo.png"
             width={200}
             alt="Silicon"
           />
@@ -69,14 +69,14 @@ export const Header = () => (
           </div>
           <div className="offcanvas-footer border-top">
             
+          <Link href="contact-us"> 
             <a
-              href="https://themes.getbootstrap.com/product/silicon-business-technology-template-ui-kit/"
+               
               className="btn btn-primary w-100"
-              target="_blank"
-              rel="noopener"
             >
-               Free Consultation
+               Get a Free Consultation
             </a>
+            </Link>
           </div>
         </div>
  
@@ -91,9 +91,11 @@ export const Header = () => (
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <a href="https://themes.getbootstrap.com/product/silicon-business-technology-template-ui-kit/" className="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
-             Free Consultation
+        <Link href="contact-us"> 
+        <a   className="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex"  >
+        Get a Free Consultation
           </a>
+          </Link>
       </div>
     </header>
   )

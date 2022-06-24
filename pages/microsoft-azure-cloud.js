@@ -9,7 +9,7 @@ export default function WebApplicationnDevelopment() {
     <Layout meta={{ title: `Microsoft Azure Consulting Services - Ceyebx` }}>
       <main className="page-wrapper">
         <PageInnerHeader title={'Transform Your Business with Microsoft Azure Consulting Services'} subTitle={"AZURE MANAGED SERVICES & CLOUD DEVELOPMENT"} showButton={true} />
-        <div className="container mt-5">
+        <div className="">
 
         <section className="our-Approach  p-md-2 p-lg-5">
         <div className="d-none d-lg-block"   />
@@ -20,10 +20,10 @@ export default function WebApplicationnDevelopment() {
         </div>
         </section>
 
-        <section className="  pb-md-2 pb-lg-5">
+        <section className=" bg-secondary  pb-md-2 pb-lg-5">
         <div className="d-none d-lg-block" style={{marginTop: '-60px', paddingTop: '60px'}} />
         <div className="container pb-4 pt-5">
-          <h2 className="h1 text-center text-md-start mb-lg-4 pt-1 pt-md-4">Azure Development Services</h2>
+          <h2 className="h1 text-center text-md-start mb-lg-4  ">Azure Development Services</h2>
           
           <div className="row row-cols-1 row-cols-md-2">
             {/* Item */}

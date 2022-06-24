@@ -1,204 +1,23 @@
 export const Footer = () => (
     <footer className="footer dark-mode bg-dark pt-5 pb-4 pb-lg-5">
+
+      <div className="py-7 py-md-8 py-lg-10">
+
       <div className="container pt-lg-4">
-        <div className="row pb-5">
-          <div className="col-lg-4 col-md-6">
-            <div className="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
-              <img src="https://ceybex.com/img/logos/logo-footer-small.png" width={140} alt="Silicon" />
-               
-            </div>
-            <p className="fs-sm text-light opacity-70 pb-lg-3 mb-4">
-            Ceybex offers the full spectrum of custom software development services to fit the varied needs of our customers. Build better software, faster!
+      <div className="row gy-4"><div className="col-lg-4 col-xl-3 pe-xl-5 mb-5 mb-lg-0"><div className="pb-3"> </div><p className="m-0 text-white">Ceybex offers the full spectrum of custom software development services to fit the varied needs of our customers. Build better software, faster!
 
-
-            </p>
-            <form className="needs-validation" noValidate="">
-    <label htmlFor="subscr-email" className="form-label">
-      Subscribe to our newsletter
-    </label>
-    <div className="input-group">
-      <input
-        type="email"
-        id="subscr-email"
-        className="form-control rounded-start ps-5"
-        placeholder="Your email"
-        required=""
-      />
-      <i className="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5" />
-      <div className="invalid-tooltip position-absolute top-100 start-0">
-        Please provide a valid email address.
+</p></div><div className="col-lg-8 col-xl-9"><div className="row gy-5"><div className="col-lg-3 col-6"><h5 className="text-white footer-title-01 opacity-5">About</h5><ul className="list-unstyled footer-link-01 m-0"><li><a className="link-white" href="#">Features</a></li><li><a className="link-white" href="#">Templates</a></li><li><a className="link-white" href="#">Integrations</a></li><li><a className="link-white" href="#">Team</a></li></ul></div><div className="col-lg-3 col-6"><h5 className="text-white footer-title-01 opacity-5">Help</h5><ul className="list-unstyled footer-link-01 m-0"><li><a className="link-white" href="#">Support</a></li><li><a className="link-white" href="#">Help Center</a></li><li><a className="link-white" href="#">Contact Us</a></li></ul></div><div className="col-lg-3 col-6"><h5 className="text-white footer-title-01 opacity-5">Resources</h5><ul className="list-unstyled footer-link-01 m-0"><li><a className="link-white" href="#">Ebooks</a></li><li><a className="link-white" href="#">Infographics</a></li><li><a className="link-white" href="#">Tools</a></li><li><a className="link-white" href="#">Videos</a></li><li><a className="link-white" href="#">Podcasts</a></li></ul></div><div className="col-lg-3 col-6"><h5 className="text-white footer-title-01 opacity-5">Commercial</h5><ul className="list-unstyled footer-link-01 m-0"><li><a className="link-white" href="#">Why Lander</a></li><li><a className="link-white" href="#">Pricing</a></li><li><a className="link-white" href="#">Custom Template</a></li></ul></div></div></div></div>
       </div>
-      <button type="submit" className="btn btn-primary">
-        Subscribe
-      </button>
-    </div>
-  </form>
-          </div>
-          <div className="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
-            <div id="footer-links" className="row">
-              <div className="col-lg-4">
-                <h6 className="mb-2">
-                  <a
-                    href="#useful-links"
-                    className="d-block text-dark dropdown-toggle d-lg-none py-2"
-                    data-bs-toggle="collapse"
-                  >
-                    Useful Links
-                  </a>
-                </h6>
-                <div
-                  id="useful-links"
-                  className="collapse d-lg-block"
-                  data-bs-parent="#footer-links"
-                >
-                  <ul className="nav flex-column pb-lg-1 mb-lg-3">
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        Mobile App Development
+      </div>
 
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                      Web Application Development
+      <div className="container">
 
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                    Cloud Software Development
-
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                     ECommerce Services
-
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                      Upgrade Applications
-
-                      </a>
-                    </li>
-                  </ul>
-                  <ul className="nav flex-column mb-2 mb-lg-0">
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                      Startup Services
-                      </a>
-                    </li>
-            
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-3">
-                <h6 className="mb-2">
-                  <a
-                    href="#social-links"
-                    className="d-block text-dark dropdown-toggle d-lg-none py-2"
-                    data-bs-toggle="collapse"
-                  >
-                  Website Design
-
-                  </a>
-                </h6>
-                <div
-                  id="social-links"
-                  className="collapse d-lg-block"
-                  data-bs-parent="#footer-links"
-                >
-                  <ul className="nav flex-column mb-2 mb-lg-0">
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                      How We Work
-
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                      Technologies
-
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                       About Us
-
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        Contact Us
-
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a
-                        href="#"
-                        className="nav-link d-inline-block px-0 pt-1 pb-2"
-                      >
-                        Free Consultation
-                      </a>
-                    </li>
-
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl-4 col-lg-5 pt-2 pt-lg-0">
-                <h6 className="mb-2">Contact Us</h6>
-                <a href="mailto:team@ceybex.com" className="fw-medium">
-                  team@ceybex.com
-                </a>
-              </div>
-            </div>
-          </div>
+      <hr class="mt-3 mb-3" />
+    <div className="col-10 col-lg-8   mb-4 footer-location"><div className="row mx-0 align-items-center"><div className="col-12 col-md-12 col-xl-3 pr-0 pl-xl-5"><a href="/"><img width={114} height={41} src="assets/Image/logo.png" alt="mi logo" className="footer-logo" loading="lazy" /></a></div><div className="col-12 col-md-6 col-xl-6 pr-0 pl-xl-5"><div className="communication-location r-communication-address"><span className="d-flex"><div className="footer-icons"><img src="https://www.mindinventory.com/static/media/address.d4c78826.svg" alt="address" /></div> India</span><p>801, City Centre 2,</p><p>Science City Road, Sola-380060</p><p>Ahmedabad, Gujarat, India</p></div></div><div className="col-12 col-md-6 col-xl-3 pr-0 pl-xl-0"><div className="communication-location"><span className="d-flex"><div className="footer-icons"><img src="https://www.mindinventory.com/static/media/address.d4c78826.svg" alt="address" /></div> USA</span><p>9341 Ellis Way, Strongsville,</p><p>Ohio 44136</p><p>USA</p></div></div></div></div>
+        
+        
         </div>
-        <p className="fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
-          <span className="text-light opacity-50">
-            © All rights reserved. Made by{" "}
-          </span>
-          <a
-            className="nav-link d-inline-block p-0"
-            href="https://ceybex.com/"
-            target="_blank"
-            rel="noopener"
-          >
-            Ceybex
-          </a>
-        </p>
-      </div>
+
     </footer>
   )
   

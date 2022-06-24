@@ -203,7 +203,7 @@ export default function HowWeWrok() {
             </div>
           </div>
         </section>
-        <TechStack />
+        
       </main>
     </Layout>
   )
