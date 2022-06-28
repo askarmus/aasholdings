@@ -33,8 +33,8 @@
    --bs-danger: #ef4444;
    --bs-light: #fff;
    --bs-dark: #131022;
-   --bs-primary-rgb: 99, 102, 241;
-   --bs-secondary-rgb: 239, 242, 252;
+   --bs-primary-rgb: 36, 59, 85;
+   --bs-secondary-rgb: 51, 153, 161;
    --bs-success-rgb: 34, 197, 94;
    --bs-info-rgb: 76, 130, 247;
    --bs-warning-rgb: 255, 186, 8;
@@ -2391,8 +2391,8 @@ textarea.form-control-lg{
 }
 .btn-primary{
    color:#000;
-   background-color:#3399a1;
-   border-color:#3399a1;
+   background-color:#243b55;
+   border-color:#243b55;
    box-shadow:unset
 }
 .btn-primary:hover{
@@ -5367,7 +5367,7 @@ textarea.form-control-lg{
    box-shadow:none !important
 }
 .shadow-primary{
-   box-shadow:0 0.5rem 1.125rem -0.5rem rgb(51 153 161) !important
+   box-shadow:0 0.5rem 1.125rem -0.5rem rgb(36 59 85) !important
 }
 .shadow-secondary{
    box-shadow:0 .5rem 1.125rem -0.5rem rgba(19,16,34,.15) !important
@@ -6316,7 +6316,7 @@ textarea.form-control-lg{
 }
 .bg-secondary{
    --bs-bg-opacity: 1;
-   background-color:#f3f6ff !important
+   background-color:#eff9f8  !important
 }
 .bg-success{
    --bs-bg-opacity: 1;
@@ -11933,8 +11933,8 @@ hr.dropdown-divider{
    border-radius:50%
 }
 .accordion-button:not(.collapsed)::after{
-    background-color: #3399a1;
-    box-shadow: 0 -0.5rem 1.125rem -0.5rem rgb(51 153 161);
+    background-color: #243b55;
+    box-shadow: 0 -0.5rem 1.125rem -0.5rem rgb(36 59 85);
 }
 .breadcrumb{
    font-weight:600
@@ -14279,7 +14279,7 @@ img-comparison-slider:focus{
 
 .big-bg-image {
     min-height: 350px;
-    background: #f5f5f5 url(https://panalinks.com/wp-content/uploads/2020/09/about-us-header.jpg);
+    background: #f5f5f5 url(/assets/image/page-header.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14310,11 +14310,10 @@ img-comparison-slider:focus{
  
 
   .top-small-heading {
-    font-size: 20px;
+    font-size: 0.9rem;
     line-height: 1.3;
     text-transform: uppercase;
-    color: #ff7e00;
-    font-family: ProximaNovaBold,Helvetica,Arial,sans-serif;
+    color: #09b19d;
     display: block;
     margin: 0 0 15px;
     letter-spacing: 2px;

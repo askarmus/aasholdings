@@ -14,9 +14,9 @@ export default function WebApplicationnDevelopment() {
         <section className="our-Approach  p-md-2 p-lg-5">
         <div className="d-none d-lg-block"   />
         <div className="container pb-4 pt-5">
-        <span class="top-small-heading">Trusted Web App Development</span>
-        <h2 class="main-heading mb-40">Specialized to Create Robust Website and Applications. </h2>
-        <p class="largeText">
+        <span className="top-small-heading">Trusted Web App Development</span>
+        <h2 className="main-heading mb-40">Specialized to Create Robust Website and Applications. </h2>
+        <p className="largeText">
         As a leading web development company, we always create robust, secure, custom web application with high scalability. According to the need of product, we use open source technology to develop a product with high quality standard. We help you stand out in this digital world by providing bespoke web development solutions.
     <br></br>
     <br></br>
@@ -116,7 +116,7 @@ Since 2015, MindInventory has been developing futuristic website and web applica
                 </h2>
                 <div id="q1" className="accordion-collapse collapse" aria-labelledby="q1-heading" data-bs-parent="#faq" style={{}}>
                   <div className="accordion-body fs-sm pt-0">
-                    <p>Software products are literally end products that are software programs. Usually, the program is delivered alongside instructions for using the product. For example, if you download a mobile game, that's a software product. So is Microsoft Office or the media player that lets you watch videos on your phone.
+                    <p>Software products are literally end products that are software programs. Usually, the program is delivered alongside instructions for using the product. For example, if you download a mobile game, that&apos;s a software product. So is Microsoft Office or the media player that lets you watch videos on your phone.
 
 </p>
                   </div>
@@ -130,7 +130,7 @@ Since 2015, MindInventory has been developing futuristic website and web applica
                 </h2>
                 <div id="q2" className="accordion-collapse collapse" aria-labelledby="q2-heading" data-bs-parent="#faq" style={{}}>
                   <div className="accordion-body fs-sm pt-0">
-                    <p>You create a software product by going through a software development process. This typically requires specific resources and skills, such as a programmer who knows the right type of programming language for the job at hand. You'll also need to know the business purpose for your software, what you want the program to do and who will be using the program. For example, are you developing software for use by internal employees or as an offering for external clients or customers?</p>
+                    <p>You create a software product by going through a software development process. This typically requires specific resources and skills, such as a programmer who knows the right type of programming language for the job at hand. You&apos;ll also need to know the business purpose for your software, what you want the program to do and who will be using the program. For example, are you developing software for use by internal employees or as an offering for external clients or customers?</p>
                     <p className="mb-0">Armed with the answers to these questions, you can find a software development company to meet your needs. Software development service providers bring the technical resources, experience and knowledge to your project to turn your ideas into a software product.
 
 </p>
@@ -147,9 +147,9 @@ Since 2015, MindInventory has been developing futuristic website and web applica
                   <div className="accordion-body fs-sm pt-0">
                   <p>Software products can be categorized into four major types:</p>
 
-                  <ul class="faq-list-points">
-<li><strong>Application products.</strong> These are what many people are most familiar with. They're the apps and programs you use for communication, entertainment and productivity. Email programs, word processors, games, and video streaming apps are examples.</li>
-<li><strong>Embedded products.</strong> These are often "invisible" to the average user. They're built into equipment, machines and devices to help them run or perform tasks. For example, most cars today have embedded software to help manage sensor processes.</li>
+                  <ul className="faq-list-points">
+<li><strong>Application products.</strong> These are what many people are most familiar with. They&apos;re the apps and programs you use for communication, entertainment and productivity. Email programs, word processors, games, and video streaming apps are examples.</li>
+<li><strong>Embedded products.</strong> These are often invisible to the average user. They&apos;re built into equipment, machines and devices to help them run or perform tasks. For example, most cars today have embedded software to help manage sensor processes.</li>
 <li><strong>System products.</strong> These are the software solutions that run a system, such as the operating system on your computer.</li>
 <li><strong>Programming products.</strong> These are software solutions designed for use by developers to help them build and maintain other software programs. Examples include text editors and debugging tools. </li>
 </ul>

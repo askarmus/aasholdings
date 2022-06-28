@@ -19,7 +19,13 @@ export default function Home() {
     {
       title: 'Azure managed services and cloud development',
       content: `Global leaders trust Microsoft’s Azure cloud platform for enterprise and hybrid infrastructure. We appreciate Azure for its robust scalability, seamless transitions, and cost-efficiencies that we pass along to our clients. As a Microsoft Partner with certified Azure developers — experts in Azure managed cloud services — on our team, we’re empowered by early access to cutting-edge features and functions from IoT to AI, enterprise mobility solutions, and other innovations to help grow and evolve your online business.`
+    },
+    {
+      title: 'Startup Product Development.      ',
+      content: `Whether you’re looking for a prototype to receive funding, an MVP to validate your product idea or a full-fledged solution built from scratch, we’re here to help you throughout your journey. `
     }
+
+
   ];
 
   return (
@@ -41,7 +47,7 @@ export default function Home() {
 
           <div className="accordion">
         {accordionData.map(({ title, content }) => (
-          <Accordion title={title} content={content} />
+          <Accordion key={title} title={title} content={content} />
         ))}
       </div>
    

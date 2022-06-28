@@ -14,9 +14,9 @@ export default function WebApplicationnDevelopment() {
         <section className="our-Approach  p-md-2 p-lg-5">
         <div className="d-none d-lg-block"   />
         <div className="container pb-4 pt-5">
-        <span class="top-small-heading">The Ceybex Approach</span>
-        <h2 class="main-heading mb-40">An Agile DevOps Culture, Innovative Azure Solutions </h2>
-        <p class="largeText">Global leaders trust Microsoft’s Azure cloud platform for enterprise and hybrid infrastructure. We appreciate Azure for its robust scalability, seamless transitions, and cost-efficiencies that we pass along to our clients. As a Microsoft Partner with certified Azure developers — experts in Azure managed cloud services — on our team, we’re empowered by early access to cutting-edge features and functions from IoT to AI, enterprise mobility solutions, and other innovations to help grow and evolve your online business.</p>
+        <span className="top-small-heading">The Ceybex Approach</span>
+        <h2 className="main-heading mb-40">An Agile DevOps Culture, Innovative Azure Solutions </h2>
+        <p className="largeText">Global leaders trust Microsoft’s Azure cloud platform for enterprise and hybrid infrastructure. We appreciate Azure for its robust scalability, seamless transitions, and cost-efficiencies that we pass along to our clients. As a Microsoft Partner with certified Azure developers — experts in Azure managed cloud services — on our team, we’re empowered by early access to cutting-edge features and functions from IoT to AI, enterprise mobility solutions, and other innovations to help grow and evolve your online business.</p>
         </div>
         </section>
 

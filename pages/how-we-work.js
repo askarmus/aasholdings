@@ -24,7 +24,7 @@ export default function HowWeWrok() {
       business emails after working hours, to make sure your <strong>software platform
         is
         as good as it can possibly be</strong>. They do this out of choice, and we
-      couldn't be prouder of their drive and dedication to customer service and
+      could not be prouder of their drive and dedication to customer service and
       professional self-improvement.
     </p>
   </div>

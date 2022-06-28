@@ -22,7 +22,7 @@ export const HomeSlider = () => (
                   spaceBetween={30}
                   centeredSlides={true}
                   autoplay={{
-                    delay: 4000,
+                    delay: 7000,
                     disableOnInteraction: false,
                   }}
                   pagination={{
@@ -33,7 +33,20 @@ export const HomeSlider = () => (
                   className="mySwiper"
                 >
 
-     
+                <SwiperSlide>
+                  <div className="scale-up">
+                    <p className='hero mb-2'>WE’RE NADECK </p>
+                    </div>
+
+                    <h2 className="display-2 from-start mb-lg-4 c-white">
+                    Custom Software Development Company
+                    </h2>
+                    <div className="from-end">
+                      <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
+                      World Class Mobile and Web App Development for startups and innovative companies and Enterprises
+                      </p>
+                    </div>
+                  </SwiperSlide>
 
                   <SwiperSlide>
                   <div className="scale-up">
