@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 export const Accordion = ({ title, content }) => {
     const [isActive, setIsActive] = useState(false);
-
     return (
         <div className="accordion-item border-0 rounded-3 shadow-sm mb-3" onClick={() => setIsActive(!isActive)}>
             <h2 className="accordion-header" >
