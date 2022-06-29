@@ -6,9 +6,9 @@ export const Header = () => (
       <Link href="/"> 
         <a   className="navbar-brand pe-3">
           <img
-            src="/assets/Image/logo.png"
+            src="/assets/Image/logo.svg"
             width={200}
-            alt="Silicon"
+            alt="NavDeck"
           />
         </a>
         </Link>
