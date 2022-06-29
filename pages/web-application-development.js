@@ -78,7 +78,7 @@ Since 2015, MindInventory has been developing futuristic website and web applica
         <div className="row py-2 py-md-4 py-lg-5">
           <div className="col-xl-4 col-md-5 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
             <h2 className="pb-3 mb-1 mb-lg-3">Any questions? <br className="d-none d-md-inline" />Check out the FAQs</h2>
-            <p className="fs-lg pb-3 mb-2 mb-lg-3">Common FAQs about Working With Ceybex for Product Development</p>
+            <p className="fs-lg pb-3 mb-2 mb-lg-3">Common FAQs about Working With NAVDECK for Product Development</p>
             <div className="row row-cols-1 row-cols-sm-2 g-3 g-sm-4">
               <div className="col">
                 <div className="card card-hover">
@@ -212,7 +212,7 @@ Since 2015, MindInventory has been developing futuristic website and web applica
         <section className="bg-secondary  pb-md-2 pb-lg-5">
         <div className="d-none d-lg-block" style={{marginTop: '-60px', paddingTop: '60px'}} />
         <div className="container pb-4 pt-5">
-          <h2 className="h1 text-center text-md-start mb-lg-4 ">Why Choose Ceybex for Web Development
+          <h2 className="h1 text-center text-md-start mb-lg-4 ">Why Choose NAVDECK for Web Development
 </h2>
 <p>Being a well-known web app development company, MindInventory is recognized for serving modern business needs and delivering the best-in-class solutions at a competitive cost across the globe. Here’s why we can be the best choice when it comes to building websites and apps:
 

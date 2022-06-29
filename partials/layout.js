@@ -11,7 +11,7 @@ function Layout({ children, meta }) {
         <>
             <Head>
                 <title>
-                    {meta?.title || "Custom software development & design - Ceybex"}
+                    {meta?.title || "Custom software development & design - NAVDECK"}
                 </title>
 
                 <link rel="icon" type="image/png" href="/favicon.png" />
@@ -26,7 +26,7 @@ function Layout({ children, meta }) {
                     name="twitter:title"
                     content={
                         meta?.title ||
-                        "Custom software development & design - Ceybex"
+                        "Custom software development & design - NAVDECK"
                     }
                 />
                 <meta
@@ -58,7 +58,7 @@ function Layout({ children, meta }) {
                     property="og:title"
                     content={
                         meta?.title ||
-                        "Custom software development & design - Ceybex"
+                        "Custom software development & design - NAVDECK"
                     }
                 />
                 <meta
