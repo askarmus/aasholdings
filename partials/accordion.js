@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Accordion = ({ title, content }) => {
+export const Accordion = ({ title, content }) => {
     const [isActive, setIsActive] = useState(false);
 
     return (
@@ -21,6 +21,4 @@ const Accordion = ({ title, content }) => {
     );
 };
 
-export default Accordion;
-
-
+ 
