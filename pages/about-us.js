@@ -1,4 +1,3 @@
-import { Header } from '../partials/header'
 import Layout from '../partials/layout'
 import { PageInnerHeader } from '../partials/page.inner.header'
 import { TechStack } from '../partials/techstack'
@@ -8,7 +7,8 @@ export default function HowWeWrok() {
 
     <Layout meta={{ title: `About Us - Ceyebx` }}>
       <main className="page-wrapper">
-        <PageInnerHeader title={'About Us'} subTitle={"Best Talent + High Quality + Within Budget + On Time"} showButton={true} />
+
+           <PageInnerHeader title={'About Us'} subTitle={"Best Talent + High Quality + Within Budget + On Time"} showButton={true} />
         <div className="container mt-5">
           <p className="display-7 text-center">
             Founded in 2005, NAVDECK focus has been offshore software development, website designing, website maintenance, website hosting and web development.

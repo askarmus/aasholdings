@@ -81,7 +81,7 @@ Since 2015, MindInventory has been developing futuristic website and web applica
             <p className="fs-lg pb-3 mb-2 mb-lg-3">Common FAQs about Working With NAVDECK for Product Development</p>
             <div className="row row-cols-1 row-cols-sm-2 g-3 g-sm-4">
               <div className="col">
-                <div className="card card-hover">
+                <div className="card ">
                   <div className="card-body pb-3">
                     <i className="bx bxs-phone-call d-block fs-2 text-primary mb-2 py-1" />
                     <p className="fs-sm mb-2">Still have  questions?</p>
@@ -93,7 +93,7 @@ Since 2015, MindInventory has been developing futuristic website and web applica
                 </div>
               </div>
               <div className="col">
-                <div className="card card-hover">
+                <div className="card ">
                   <div className="card-body pb-3">
                     <i className="bx bx-message-rounded-dots d-block fs-2 text-success mb-2 py-1" />
                     <p className="fs-sm mb-2">Still have  questions?</p>
@@ -221,7 +221,7 @@ Since 2015, MindInventory has been developing futuristic website and web applica
           <div className="row row-cols-1 row-cols-md-2">
             {/* Item */}
             <div className="col py-4 my-2 my-sm-3">
-              <div   className="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-3 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
+              <div   className="card  h-100 border-0 shadow-sm text-decoration-none pt-3 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                 <div className="card-body  ">
                   
                   <h2 className="h4 d-inline-flex align-items-center">
@@ -238,7 +238,7 @@ Since 2015, MindInventory has been developing futuristic website and web applica
           
            {/* Item */}
            <div className="col py-4 my-2 my-sm-3">
-              <div   className="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-3 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
+              <div   className="card  h-100 border-0 shadow-sm text-decoration-none pt-3 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                 <div className="card-body  ">
                   
                   <h2 className="h4 d-inline-flex align-items-center">
@@ -256,7 +256,7 @@ Since 2015, MindInventory has been developing futuristic website and web applica
             </div>
 
             <div className="col py-4 my-2 my-sm-3">
-              <div   className="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-3 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
+              <div   className="card  h-100 border-0 shadow-sm text-decoration-none pt-3 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                 <div className="card-body  ">
                   
                   <h2 className="h4 d-inline-flex align-items-center">
@@ -279,7 +279,7 @@ Since 2015, MindInventory has been developing futuristic website and web applica
 
 
             <div className="col py-4 my-2 my-sm-3">
-              <div   className="card card-hover h-100 border-0 shadow-sm text-decoration-none pt-3 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
+              <div   className="card  h-100 border-0 shadow-sm text-decoration-none pt-3 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                 <div className="card-body  ">
                   
                   <h2 className="h4 d-inline-flex align-items-center">
