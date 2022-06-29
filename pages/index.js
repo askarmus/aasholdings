@@ -1,5 +1,5 @@
 
-import { Accordion } from '../partials/Accordion'
+import { Accordion } from '../partials/accordion'
 import { ContactUs } from '../partials/contact.us'
 import { HomeSlider } from '../partials/home.slider'
 import Layout from '../partials/layout'
