@@ -49,6 +49,11 @@ export const Header = () => (
                     <a class="dropdown-item">Startup Product Development</a>
                   </Link>
                 </li>
+                <li>
+                  <Link href="legacy-modernization">
+                    <a class="dropdown-item">Legacy Modernization</a>
+                  </Link>
+                </li>
               </ul>
             </li>
             <li className="nav-item">

@@ -6,7 +6,7 @@ import { PageInnerHeader } from "../partials/page.inner.header";
 
 export default function HowWeWrok() {
   return (
-    <Layout meta={{ title: `How we work - Ceyebx` }}>
+    <Layout meta={{ title: `How we work - NavDeck` }}>
       <main className="page-wrapper">
         <PageInnerHeader
           title={"How We Work"}

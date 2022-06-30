@@ -1,12 +1,16 @@
-import Layout from '../partials/layout'
-import { PageInnerHeader } from '../partials/page.inner.header'
-import { TechStack } from '../partials/techstack'
+import Layout from "../partials/layout";
+import { PageInnerHeader } from "../partials/page.inner.header";
+import { TechStack } from "../partials/techstack";
 
 export default function HowWeWrok() {
   return (
-    <Layout meta={{ title: `Contact Us - Ceyebx` }}>
+    <Layout meta={{ title: `Contact Us - NavDeck` }}>
       <main className="page-wrapper">
-        <PageInnerHeader title={'Begins With A Hello.'} subTitle={"Send us your brief and learn how we work."} showButton={false} />
+        <PageInnerHeader
+          title={"Begins With A Hello."}
+          subTitle={"Send us your brief and learn how we work."}
+          showButton={false}
+        />
         <section className="container pb-5 mb-lg-4 mb-xl-5">
           {/* Breadcrumb */}
           <nav className="pt-4 mt-lg-3" aria-label="breadcrumb">
@@ -27,9 +31,9 @@ export default function HowWeWrok() {
             <div className="col-md-4">
               <h1 className="mb-md-4">Get in Touch</h1>
               <p className="fs-lg pb-2">
-                Have a&nbsp;project in&nbsp;mind? To&nbsp;request a&nbsp;quote contact
-                us&nbsp;directly or&nbsp;fill out the form and let us&nbsp;know how
-                we&nbsp;can help.
+                Have a&nbsp;project in&nbsp;mind? To&nbsp;request a&nbsp;quote
+                contact us&nbsp;directly or&nbsp;fill out the form and let
+                us&nbsp;know how we&nbsp;can help.
               </p>
             </div>
             {/* Contact form */}
@@ -48,7 +52,9 @@ export default function HowWeWrok() {
                     className="form-control form-control-lg"
                     required=""
                   />
-                  <div className="invalid-feedback">Please enter your name!</div>
+                  <div className="invalid-feedback">
+                    Please enter your name!
+                  </div>
                 </div>
                 <div className="col-sm-6 mb-4">
                   <label htmlFor="email" className="form-label fs-base">
@@ -95,7 +101,9 @@ export default function HowWeWrok() {
                     <option value="Support query">Support query</option>
                     <option value="Feature request">Feature request</option>
                   </select>
-                  <div className="invalid-feedback">Please choose the subject!</div>
+                  <div className="invalid-feedback">
+                    Please choose the subject!
+                  </div>
                 </div>
                 <div className="col-12 mb-4">
                   <label htmlFor="message" className="form-label fs-base">
@@ -108,7 +116,9 @@ export default function HowWeWrok() {
                     required=""
                     defaultValue={""}
                   />
-                  <div className="invalid-feedback">Please write your message!</div>
+                  <div className="invalid-feedback">
+                    Please write your message!
+                  </div>
                 </div>
               </div>
               <div className="form-check mb-4">
@@ -122,7 +132,10 @@ export default function HowWeWrok() {
                   I agree to the <a href="#">Terms &amp; Conditions</a>
                 </label>
               </div>
-              <button type="submit" className="btn btn-primary btn-lg shadow-primary">
+              <button
+                type="submit"
+                className="btn btn-primary btn-lg shadow-primary"
+              >
                 Submit form
               </button>
             </form>
@@ -203,8 +216,7 @@ export default function HowWeWrok() {
             </div>
           </div>
         </section>
-        
       </main>
     </Layout>
-  )
+  );
 }

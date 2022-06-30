@@ -14361,4 +14361,8 @@ img-comparison-slider:focus{
 .link-white{
     color: white;
     text-decoration: none;
+    font-size: 0.9rem;
+}
+.bg-prim {
+     background: #243b55;;
 }
