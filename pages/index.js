@@ -2,6 +2,7 @@ import { Accordion } from "../partials/accordion";
 import { ContactUs } from "../partials/contact.us";
 import { HomeSlider } from "../partials/home.slider";
 import Layout from "../partials/layout";
+import { LetsTalk } from "../partials/letstalk";
 import { Process } from "../partials/process";
 import { Review } from "../partials/review";
 import { WhoWeAre } from "../partials/who.we.are";
@@ -44,8 +45,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <Review />
-        <ContactUs />
+        <LetsTalk />
       </main>
     </Layout>
   );

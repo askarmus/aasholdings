@@ -6531,8 +6531,8 @@ textarea.form-control-lg{
 .bg-attachment-fixed{
    background-attachment:fixed !important
 }
-.bg-gradient-primary{
-   background:linear-gradient(90deg, #3399a1 0%, #8b5cf6 50%, #d946ef 100%) !important
+.bg-gradient-primary {
+    background: linear-gradient(90deg, #3399a1 0%, #2e2640 50%, #17021a 100%) !important;
 }
 .bg-gradient-primary-translucent{
    background:linear-gradient(180deg, rgba(99, 102, 241, 0) 0%, rgba(99, 102, 241, 0.6) 120%) !important
@@ -14299,7 +14299,7 @@ img-comparison-slider:focus{
     background: linear-gradient(180deg, rgba(19, 16, 34, 0.58) 0%, rgba(19, 16, 34, 0.78) 100%) !important;
 }
 .banner-section {
-    background-image: url(/assets/image/banner-img.png);
+    background-image: url(http://localhost:3000/assets/image/page-header.jpg);
     background-size: cover;
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -14308,7 +14308,9 @@ img-comparison-slider:focus{
   color: #fff !important;
 }
  
-
+.bg-gradient-dark-translucent {
+    background: linear-gradient(280deg, rgba(11, 15, 25, 0.58) 0%, rgba(11, 15, 25, 0.78) 100%) !important;
+}
   .top-small-heading {
     font-size: 0.9rem;
     line-height: 1.3;
@@ -14375,4 +14377,7 @@ img-comparison-slider:focus{
 .menu-open {
     overflow: hidden;
     padding-right: 17px;
+}
+.no-underline{
+    text-decoration: none;
 }

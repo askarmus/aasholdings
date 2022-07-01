@@ -2,6 +2,7 @@ import Layout from "../partials/layout";
 import { PageInnerHeader } from "../partials/page.inner.header";
 import { Accordion } from "../partials/accordion";
 import { Review } from "../partials/review";
+import { LetsTalk } from "../partials/letstalk";
 
 export default function WebApplicationnDevelopment() {
   const accordionData = [
@@ -189,7 +190,7 @@ export default function WebApplicationnDevelopment() {
               <div className="col-md-6 pb-2 pb-md-0 mb-4 mb-md-0">
                 <div className="pe-lg-5">
                   <img
-                    src="https://jobs.revampinsights.com/wp-content/uploads/2020/10/softskills.jpg"
+                    src="https://assets.entrepreneur.com/content/3x2/2000/20160315152835-startup-pagina.jpeg"
                     className="rounded-3"
                     alt="Image"
                   />
@@ -299,6 +300,7 @@ export default function WebApplicationnDevelopment() {
             </div>
           </section>
         </div>
+        <LetsTalk />
       </main>
     </Layout>
   );

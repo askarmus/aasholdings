@@ -1,23 +1,21 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import 'swiper/css';
+import "swiper/css";
 export const HomeSlider = () => (
   <>
-    <section  className="jarallax   py-xxl-5 banner-section"  data-jarallax=""  data-speed="0.4" >
+    <section
+      className="jarallax   py-xxl-5 banner-section"
+      data-jarallax=""
+      data-speed="0.4"
+    >
       <span className="position-absolute top-0 start-0 w-100 h-100 bg-gradient-dark-translucent" />
-      <div
-        className="jarallax-img"
-         
-      />
+      <div className="jarallax-img" />
       <div className="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
-
         {/* Slider */}
         <div className="container text-center py-xl-5">
           <div className="row justify-content-center pt-lg-5">
             <div className="col-xl-8 col-lg-9 col-md-10 col-11">
-              <div
-                className="swiper pt-5 pb-4 py-md-5"
-              >
+              <div className="swiper pt-5 pb-4 py-md-5">
                 <Swiper
                   spaceBetween={30}
                   centeredSlides={true}
@@ -32,66 +30,87 @@ export const HomeSlider = () => (
                   modules={[Autoplay, Pagination, Navigation]}
                   className="mySwiper"
                 >
-
-                <SwiperSlide>
-                  <div className="scale-up">
-                    <p className='hero mb-2'>WE’RE NADECK </p>
-                    </div>
-
-                    <h2 className="display-2 from-start mb-lg-4 c-white">
-                    Custom Software Development Company
-                    </h2>
-                    <div className="from-end">
-                      <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
-                      World Class Mobile and Web App Development for startups and innovative companies and Enterprises
-                      </p>
-                    </div>
-                  </SwiperSlide>
-
                   <SwiperSlide>
-                  <div className="scale-up">
-                    <p className='hero mb-2'>.NET Core + Angular + React + Vue</p>
+                    <div className="scale-up">
+                      <p className="hero mb-2">WE’RE NADECK </p>
                     </div>
 
                     <h2 className="display-2 from-start mb-lg-4 c-white">
-                      Web Application <br/> Development
+                      Custom Software Development Company
                     </h2>
                     <div className="from-end">
                       <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
-                      Develops web apps which will solve your business problems, improve efficiency and save time and money.
+                        World Class Mobile and Web App Development for startups
+                        and innovative companies and Enterprises
+                      </p>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide>
+                    <div className="scale-up">
+                      <p className="hero mb-2">
+                        .NET Core + Angular + React + Vue
+                      </p>
+                    </div>
+
+                    <h2 className="display-2 from-start mb-lg-4 c-white">
+                      Web Application <br /> Development
+                    </h2>
+                    <div className="from-end">
+                      <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
+                        Develops web apps which will solve your business
+                        problems, improve efficiency and save time and money.
                       </p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                  <div className="scale-up">
-                    <p className='hero mb-2'> Amazon AWS + Microsoft Azure + Google Cloud </p>
+                    <div className="scale-up">
+                      <p className="hero mb-2">
+                        {" "}
+                        Amazon AWS + Microsoft Azure + Google Cloud{" "}
+                      </p>
                     </div>
-                    <h2 className="display-2 from-start mb-lg-4 c-white"> Cloud Software  <br/> Development </h2>
+                    <h2 className="display-2 from-start mb-lg-4 c-white">
+                      {" "}
+                      Cloud Software <br /> Development{" "}
+                    </h2>
                     <div className="from-end">
                       <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
-                      Leverage the cloud to get highly scalable apps without deploying additional hardware.
+                        Leverage the cloud to get highly scalable apps without
+                        deploying additional hardware.
                       </p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                  <div className="scale-up">
-                    <p className='hero mb-2'> ASP + jQuery + VB + PHP + API </p>
+                    <div className="scale-up">
+                      <p className="hero mb-2">
+                        {" "}
+                        ASP + jQuery + VB + PHP + API{" "}
+                      </p>
                     </div>
-                    <h2 className="display-2 from-start mb-lg-4 c-white"> Upgrade Applications </h2>
+                    <h2 className="display-2 from-start mb-lg-4 c-white">
+                      {" "}
+                      Upgrade Applications{" "}
+                    </h2>
                     <div className="from-end">
                       <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
-                      Modernize, renew and enhance the value of your current applications.
+                        Modernize, renew and enhance the value of your current
+                        applications.
                       </p>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                  <div className="scale-up">
-                    <p className='hero mb-2'> App + Web + Portal </p>
+                    <div className="scale-up">
+                      <p className="hero mb-2"> App + Web + Portal </p>
                     </div>
-                    <h2 className="display-2 from-start mb-lg-4 c-white"> Startup Services </h2>
+                    <h2 className="display-2 from-start mb-lg-4 c-white">
+                      {" "}
+                      Startup Services{" "}
+                    </h2>
                     <div className="from-end">
                       <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
-                      Turn your craziest idea into a successful profit making product
+                        Turn your craziest idea into a successful profit making
+                        product
                       </p>
                     </div>
                   </SwiperSlide>
@@ -101,10 +120,6 @@ export const HomeSlider = () => (
           </div>
         </div>
       </div>
-  
     </section>
   </>
-
-)
-
-
+);

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const WhoWeAre = () => (
-  <section className="container">
+  <section className="container py-5">
     <div className="row pt-xl-3">
       <div className="col-md-5 text-center text-md-start pb-5">
         <h1 className="mb-4">Who We Are</h1>

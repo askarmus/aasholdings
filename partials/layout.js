@@ -25,6 +25,11 @@ function Layout({ children, meta }) {
         <body className={isOpen ? "menu-open" : ""} />
       </Helmet>
       <Head>
+        <script
+          src="//code.tidio.co/qfa0hpgzlbay17khapwh3b0gfasrtmgj.js"
+          async
+        ></script>
+
         <title>
           {meta?.title || "Custom software development & design - NavDeck"}
         </title>
