@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const LetsTalk = () => (
-  <section className="bg-gradient-primary  py-3 ">
+  <section className="bg-gradient-primary ">
     <div className="container py-2 py-md-4   py-lg-5">
       <div className="row py-xl-3">
         <div className="col-xl-5 col-lg-6 offset-xl-1 order-lg-2 mb-4">

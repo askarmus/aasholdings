@@ -14299,7 +14299,7 @@ img-comparison-slider:focus{
     background: linear-gradient(180deg, rgba(19, 16, 34, 0.58) 0%, rgba(19, 16, 34, 0.78) 100%) !important;
 }
 .banner-section {
-    background-image: url(/assets/image/banner-img.png);
+    background-image: url(/assets/image/page-header.jpg);
     background-size: cover;
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -14308,7 +14308,11 @@ img-comparison-slider:focus{
   color: #fff !important;
 }
  
-
+.text-gradient-primary {
+    background: linear-gradient(to right, #62dbec, #3dba90, #9711ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(0,0,0,0);
+}
   .top-small-heading {
     font-size: 0.9rem;
     line-height: 1.3;

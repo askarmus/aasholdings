@@ -25,7 +25,7 @@ export const WhoWeAre = () => (
       </div>
       <div className="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
         <img
-          src="https://www.netsolutions.com/assets/images/software-development-services-net-solutions-employee-working-on-product-development.webp"
+          src="https://silicon.createx.studio/assets/img/landing/software-company/about-img.jpg"
           className="rounded-3 shadow-sm"
           alt="Image"
         />
