@@ -14366,3 +14366,13 @@ img-comparison-slider:focus{
 .bg-prim {
      background: #243b55;;
 }
+
+ 
+.offcanvas.showing, .offcanvas.hiding, .offcanvas.show {
+    visibility: visible;
+}
+
+.menu-open {
+    overflow: hidden;
+    padding-right: 17px;
+}

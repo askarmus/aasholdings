@@ -1,13 +1,29 @@
 import { Header } from "./header";
-import React, { Children } from "react";
+import React, { Children, useState, useEffect } from "react";
 import Head from "next/head";
 import { Footer } from "./footer";
+import { menuService } from "../service/menu.service";
+import { Helmet } from "react-helmet";
 
 export default Layout;
 
 function Layout({ children, meta }) {
+  const [isOpen, setOpen] = useState(false);
+
+  useEffect(() => {
+    const menuSubscription = menuService
+      .menuStatus()
+      .subscribe((x) => setOpen(x));
+    return () => {
+      menuSubscription.unsubscribe();
+    };
+  }, []);
+
   return (
     <>
+      <Helmet>
+        <body className={isOpen ? "menu-open" : ""} />
+      </Helmet>
       <Head>
         <title>
           {meta?.title || "Custom software development & design - NavDeck"}
@@ -47,7 +63,7 @@ function Layout({ children, meta }) {
         <meta
           property="og:title"
           content={
-            meta?.title || "Custom software development & design - NavDeck"
+            meta?.title || "Custom software development & design - NAVDECK"
           }
         />
         <meta
