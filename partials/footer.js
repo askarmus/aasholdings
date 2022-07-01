@@ -85,7 +85,7 @@ export const Footer = () => (
     <div className="container">
       <hr class="mt-3 mb-3" />
       <div className="col-10 col-lg-8   mb-4 footer-location">
-        <div className="row mx-0 align-items-center">
+        <div className="row">
           <div className="col-12 col-md-12 col-xl-3 pr-0 pl-xl-5">
             <a href="/">
               <img
@@ -99,7 +99,7 @@ export const Footer = () => (
             </a>
           </div>
           <div className="col-12 col-md-6 col-xl-6 pr-0 pl-xl-5">
-            <div className="communication-location r-communication-address">
+            <div className="communication-location r-communication-address mt-4 mb-4">
               <span className="d-flex">
                 <div className="footer-icons">
                   <img

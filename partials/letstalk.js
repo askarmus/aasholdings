@@ -1,8 +1,8 @@
 import Link from "next/link";
 
 export const LetsTalk = () => (
-  <section className="bg-gradient-primary ">
-    <div className="container py-2 py-md-4 py-lg-5">
+  <section className="bg-gradient-primary  py-3 ">
+    <div className="container py-2 py-md-4   py-lg-5">
       <div className="row py-xl-3">
         <div className="col-xl-5 col-lg-6 offset-xl-1 order-lg-2 mb-4">
           <h2 className="h1 text-light text-center text-sm-start pb-4 mb-0 mb-lg-3">
@@ -16,13 +16,10 @@ export const LetsTalk = () => (
             </p>
           </div>
           <div className="mt-4 d-flex flex-column flex-sm-row  ">
-            <a href="#" className="btn btn-outline-light btn-lg mb-1">
+            <a href="#" className="btn btn-outline-light btn-lg m-2  ">
               hello@navdeck.sg
             </a>
-            <a
-              href="#"
-              className="btn btn btn-outline-light rounded btn-lg mb-1  mx-4"
-            >
+            <a href="#" className="btn btn-outline-light btn-lg m-2">
               +6525852858
             </a>
           </div>

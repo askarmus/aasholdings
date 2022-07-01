@@ -5,6 +5,7 @@ import VisibilitySensor from "react-visibility-sensor";
 
 export function Header() {
   const [isOpen, setOpen] = useState(false);
+  const [isServiceOpen, setServiceOpen] = useState(false);
 
   function onMenuClick(isOpen) {
     setOpen(isOpen);
@@ -35,6 +36,7 @@ export function Header() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown">
                 <a
+                  onClick={() => setServiceOpen(!isServiceOpen)}
                   class="nav-link dropdown-toggle"
                   href="#"
                   id="navbarDropdown"
@@ -44,7 +46,10 @@ export function Header() {
                 >
                   Services
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul
+                  className={`dropdown-menu ${isServiceOpen ? "show" : ""}`}
+                  aria-labelledby="navbarDropdown"
+                >
                   <li>
                     <Link href="web-application-development">
                       <a class="dropdown-item">Web Application Development</a>
