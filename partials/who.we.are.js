@@ -6,7 +6,7 @@ export const WhoWeAre = () => (
       <div className="col-md-5 text-center text-md-start pb-5">
         <h1 className="mb-4">Who We Are</h1>
         <p className="fs-lg pb-lg-3 mb-4">
-          NavDeck is a disruptive mobile and web app development company. We
+          Ceybex is a disruptive mobile and web app development company. We
           create cutting edge apps and UX/UI designs to bring your brilliant
           ideas to reality. Our team of hardened tech developers will be with
           you in the twists and turns of app development. We are proud of our

@@ -11,7 +11,7 @@ export const Process = () => (
       <div className="row align-items-center pb-5 mb-lg-2">
         <div className="col-md-8 text-center text-md-start">
           <p className="fs-lg text-muted mb-md-0">
-            NavDeck focus has been offshore software development, website
+            Ceybex focus has been offshore software development, website
             designing, website maintenance, website hosting and web development.
           </p>
         </div>
@@ -81,7 +81,7 @@ export const Process1 = () => (
       End-To-End App Development
     </h2>
     <p className="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">
-      NavDeck focus has been offshore software development, website designing,
+      Ceybex focus has been offshore software development, website designing,
       website maintenance, website hosting and web development.
     </p>
     <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 pb-xl-3">

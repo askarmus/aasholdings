@@ -8,7 +8,7 @@ export const Footer = () => (
           <div className="col-lg-4 col-xl-3 pe-xl-5 mb-5 mb-lg-0">
             <div className="pb-3"> </div>
             <p className="m-0 text-white">
-              NavDeck offers the full spectrum of custom software development
+              Ceybex offers the full spectrum of custom software development
               services to fit the varied needs of our customers. Build better
               software, faster!
             </p>

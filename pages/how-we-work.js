@@ -1,12 +1,10 @@
 import { ContactUs } from "../partials/contact.us";
-import { Footer } from "../partials/footer";
-import { Header } from "../partials/header";
 import Layout from "../partials/layout";
 import { PageInnerHeader } from "../partials/page.inner.header";
 
 export default function HowWeWrok() {
   return (
-    <Layout meta={{ title: `How we work - NavDeck` }}>
+    <Layout meta={{ title: `How we work - Ceybex` }}>
       <main className="page-wrapper">
         <PageInnerHeader
           title={"How We Work"}

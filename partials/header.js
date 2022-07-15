@@ -17,7 +17,7 @@ export function Header() {
       <div className="container px-3">
         <Link href="/">
           <a className="navbar-brand pe-3">
-            <img src="assets/image/logo.png" width={170} alt="NavDeck" />
+            <img src="assets/image/logo.png" width={170} alt="Ceybex" />
           </a>
         </Link>
         <div

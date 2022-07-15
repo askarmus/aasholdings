@@ -4,7 +4,7 @@ import { TechStack } from "../partials/techstack";
 
 export default function HowWeWrok() {
   return (
-    <Layout meta={{ title: `Contact Us - NavDeck` }}>
+    <Layout meta={{ title: `Contact Us - Ceybex` }}>
       <main className="page-wrapper">
         <PageInnerHeader
           title={"Begins With A Hello."}

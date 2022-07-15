@@ -31,7 +31,7 @@ function Layout({ children, meta }) {
         ></script>
 
         <title>
-          {meta?.title || "Custom software development & design - NavDeck"}
+          {meta?.title || "Custom software development & design - Ceybex"}
         </title>
 
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -42,7 +42,7 @@ function Layout({ children, meta }) {
         <meta
           name="twitter:title"
           content={
-            meta?.title || "Custom software development & design - NavDeck"
+            meta?.title || "Custom software development & design - Ceybex"
           }
         />
         <meta

@@ -48,7 +48,7 @@ export default function WebApplicationnDevelopment() {
   ];
 
   return (
-    <Layout meta={{ title: `Startup Product Development - NavDeck` }}>
+    <Layout meta={{ title: `Startup Product Development - Ceybex` }}>
       <main className="page-wrapper">
         <PageInnerHeader
           title={"Startup Product Development."}

@@ -41,7 +41,7 @@ export default function WebApplicationnDevelopment() {
   ];
 
   return (
-    <Layout meta={{ title: `Legacy Modernization Services - NavDeck` }}>
+    <Layout meta={{ title: `Legacy Modernization Services - Ceybex` }}>
       <main className="page-wrapper">
         <PageInnerHeader
           title={"Legacy Modernization."}

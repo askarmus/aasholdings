@@ -7,7 +7,7 @@ import { TechStack } from "../partials/techstack";
 
 export default function HowWeWrok() {
   return (
-    <Layout meta={{ title: `Technologies - NavDeck` }}>
+    <Layout meta={{ title: `Technologies - Ceybex` }}>
       <main className="page-wrapper">
         <PageInnerHeader
           title={"Technologies"}

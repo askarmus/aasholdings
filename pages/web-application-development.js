@@ -7,7 +7,7 @@ export default function WebApplicationnDevelopment() {
   return (
     <Layout
       meta={{
-        title: `Specialized to Create Robust Website and Applications - NavDeck`,
+        title: `Specialized to Create Robust Website and Applications - Ceybex`,
       }}
     >
       <main className="page-wrapper">
@@ -171,7 +171,7 @@ export default function WebApplicationnDevelopment() {
                   Check out the FAQs
                 </h2>
                 <p className="fs-lg pb-3 mb-2 mb-lg-3">
-                  Common FAQs about Working With NavDeck for Product Development
+                  Common FAQs about Working With Ceybex for Product Development
                 </p>
                 <div className="row row-cols-1 row-cols-sm-2 g-3 g-sm-4">
                   <div className="col">
@@ -451,7 +451,7 @@ export default function WebApplicationnDevelopment() {
             />
             <div className="container pb-4 pt-5">
               <h2 className="h1 text-center text-md-start mb-lg-4 ">
-                Why Choose NavDeck for Web Development
+                Why Choose Ceybex for Web Development
               </h2>
               <p>
                 Being a well-known web app development company, MindInventory is

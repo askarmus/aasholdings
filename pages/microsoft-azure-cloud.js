@@ -5,7 +5,7 @@ import { TechStack } from "../partials/techstack";
 
 export default function WebApplicationnDevelopment() {
   return (
-    <Layout meta={{ title: `Microsoft Azure Consulting Services - NavDeck` }}>
+    <Layout meta={{ title: `Microsoft Azure Consulting Services - Ceybex` }}>
       <main className="page-wrapper">
         <PageInnerHeader
           title={
@@ -18,7 +18,7 @@ export default function WebApplicationnDevelopment() {
           <section className="our-Approach  p-md-2 p-lg-5">
             <div className="d-none d-lg-block" />
             <div className="container pb-4 pt-5">
-              <span className="top-small-heading">The NavDeck Approach</span>
+              <span className="top-small-heading">The Ceybex Approach</span>
               <h2 className="main-heading mb-40">
                 An Agile DevOps Culture, Innovative Azure Solutions{" "}
               </h2>
