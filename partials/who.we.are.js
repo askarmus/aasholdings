@@ -25,8 +25,8 @@ export const WhoWeAre = () => (
       </div>
       <div className="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
         <img
-          src="https://silicon.createx.studio/assets/img/landing/software-company/about-img.jpg"
-          className="rounded-3 shadow-sm"
+          src="https://i0.wp.com/usboutsourcing.com/wp-content/uploads/2020/02/image1-about.png?w=665&ssl=1"
+          className="rounded-3  "
           alt="Image"
         />
       </div>
