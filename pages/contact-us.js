@@ -12,20 +12,6 @@ export default function HowWeWrok() {
           showButton={false}
         />
         <section className="container pb-5 mb-lg-4 mb-xl-5">
-          {/* Breadcrumb */}
-          <nav className="pt-4 mt-lg-3" aria-label="breadcrumb">
-            <ol className="breadcrumb mb-0">
-              <li className="breadcrumb-item">
-                <a href="index.html">
-                  <i className="bx bx-home-alt fs-lg me-1" />
-                  Home
-                </a>
-              </li>
-              <li className="breadcrumb-item active" aria-current="page">
-                Contacts v.1
-              </li>
-            </ol>
-          </nav>
           <div className="row pt-4 mt-lg-3 pb-5 mb-lg-4 mb-xl-5">
             {/* Page title */}
             <div className="col-md-4">
@@ -42,7 +28,7 @@ export default function HowWeWrok() {
               noValidate=""
             >
               <div className="row">
-                <div className="col-sm-6 mb-4">
+                <div className="col-sm-12 mb-4">
                   <label htmlFor="name" className="form-label fs-base">
                     Name
                   </label>
@@ -86,23 +72,17 @@ export default function HowWeWrok() {
                   />
                 </div>
                 <div className="col-sm-6 mb-4">
-                  <label htmlFor="subject" className="form-label fs-base">
-                    Subject
+                  <label htmlFor="email" className="form-label fs-base">
+                    Email
                   </label>
-                  <select
-                    id="subject"
-                    className="form-select form-select-lg"
+                  <input
+                    type="email"
+                    id="email"
+                    className="form-control form-control-lg"
                     required=""
-                  >
-                    <option value="" selected="" disabled="">
-                      Choose subject
-                    </option>
-                    <option value="Website issues">Website issues</option>
-                    <option value="Support query">Support query</option>
-                    <option value="Feature request">Feature request</option>
-                  </select>
+                  />
                   <div className="invalid-feedback">
-                    Please choose the subject!
+                    Please provide a valid email address!
                   </div>
                 </div>
                 <div className="col-12 mb-4">
@@ -121,14 +101,7 @@ export default function HowWeWrok() {
                   </div>
                 </div>
               </div>
-              <div className="form-check mb-4">
-                <input
-                  type="checkbox"
-                  id="terms"
-                  className="form-check-input"
-                  required=""
-                />
-              </div>
+
               <button
                 type="submit"
                 className="btn btn-primary btn-lg shadow-primary"
