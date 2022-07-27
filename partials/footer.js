@@ -91,7 +91,7 @@ export const Footer = () => (
               <img
                 width={114}
                 height={41}
-                src="assets/image/logo.svg"
+                src="assets/image/logo.png"
                 alt="mi logo"
                 className="footer-logo"
                 loading="lazy"
@@ -109,9 +109,9 @@ export const Footer = () => (
                 </div>{" "}
                 Singapore
               </span>
-              <p>801, City Centre 2,</p>
-              <p>Science City Road, Sola-380060</p>
-              <p>Ahmedabad, Gujarat, India</p>
+              <p> 8 Somapah Road,</p>
+              <p>SUTD Entrepreneurship Centre</p>
+              <p>Singapore, 487372, SG</p>
             </div>
           </div>
           <div className="col-12 col-md-6 col-xl-3 pr-0 pl-xl-0">
@@ -125,9 +125,9 @@ export const Footer = () => (
                 </div>{" "}
                 Sri Lanka
               </span>
-              <p>9341 Ellis Way, Strongsville,</p>
-              <p>Ohio 44136</p>
-              <p>USA</p>
+              <p>141 World Trade Center,</p>
+              <p>Western Province</p>
+              <p>Sri Lanka</p>
             </div>
           </div>
         </div>

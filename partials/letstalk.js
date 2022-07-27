@@ -17,7 +17,7 @@ export const LetsTalk = () => (
           </div>
           <div className="mt-4 d-flex flex-column flex-sm-row  ">
             <a href="#" className="btn btn-outline-light btn-lg m-2  ">
-              hello@navdeck.sg
+              team@ceybex.com
             </a>
             <a href="#" className="btn btn-outline-light btn-lg m-2">
               +6525852858
@@ -38,9 +38,9 @@ export const LetsTalk = () => (
               <h6 className="fw-semibold lh-base mb-0 text-white">
                 Co-Founder and Team Lead
               </h6>
-              <a href="mailto:sean@navdeck.sg" className="no-underline">
+              <a href="mailto:sean@ceybex.com" className="no-underline">
                 <span className="fs-sm c-white d-inline-flex align-items-center">
-                  sean@navdeck.sg{" "}
+                  sean@ceybex.com{" "}
                   <i className="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
                 </span>
               </a>
@@ -59,9 +59,9 @@ export const LetsTalk = () => (
                 Askar Musthaffa
               </h4>
               <h6 className="fw-semibold lh-base mb-0 text-white">Tech Lead</h6>
-              <a href="mailto:sean@navdeck.sg" className="no-underline">
+              <a href="mailto:askar@ceybex.com" className="no-underline">
                 <span className="fs-sm c-white d-inline-flex align-items-center">
-                  askar@navdeck.sg{" "}
+                  askar@ceybex.com{" "}
                   <i className="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
                 </span>
               </a>

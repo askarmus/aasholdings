@@ -128,9 +128,6 @@ export default function HowWeWrok() {
                   className="form-check-input"
                   required=""
                 />
-                <label htmlFor="terms" className="form-check-label fs-base">
-                  I agree to the <a href="#">Terms &amp; Conditions</a>
-                </label>
               </div>
               <button
                 type="submit"
@@ -149,10 +146,10 @@ export default function HowWeWrok() {
                 <li className="mb-3 mb-lg-4">
                   <span className="d-block fs-sm text-muted">Email</span>
                   <a
-                    href="mailto:silicon@example.com"
+                    href="mailto:team@ceybex.com"
                     className="nav-link d-inline-block fs-lg p-0"
                   >
-                    silicon@example.com
+                    team@ceybex.com
                   </a>
                 </li>
                 <li className="mb-3 mb-lg-4">
@@ -167,46 +164,18 @@ export default function HowWeWrok() {
                 <li className="mb-3 mb-lg-4">
                   <span className="d-block fs-sm text-muted">Headquarters</span>
                   <div className="text-nav fs-lg fw-medium">
-                    6391 Elgin St. Celina, Delaware 10299
+                    8 Somapah Road, SUTD Entrepreneurship Centre, Singapore,
+                    487372, SG
                   </div>
-                  <a href="#" className="fs-sm">
-                    Get directions
-                  </a>
                 </li>
               </ul>
-              <div className="d-flex">
-                <a
-                  href="#"
-                  className="btn btn-icon btn-outline-secondary btn-facebook mb-3 me-3"
-                >
-                  <i className="bx bxl-facebook" />
-                </a>
-                <a
-                  href="#"
-                  className="btn btn-icon btn-outline-secondary btn-twitter mb-3 me-3"
-                >
-                  <i className="bx bxl-twitter" />
-                </a>
-                <a
-                  href="#"
-                  className="btn btn-icon btn-outline-secondary btn-linkedin mb-3 me-3"
-                >
-                  <i className="bx bxl-linkedin" />
-                </a>
-                <a
-                  href="#"
-                  className="btn btn-icon btn-outline-secondary btn-instagram mb-3 me-3"
-                >
-                  <i className="bx bxl-instagram" />
-                </a>
-              </div>
             </div>
             {/* Map */}
             <div className="col-xl-7 col-md-8 offset-xl-1">
               <div className="shadow-sm rounded-3 overflow-hidden">
                 <iframe
                   className="d-block"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48698.87774279696!2d-83.10562475806614!3d40.28286124908331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838e5684a67f065%3A0xe0b86471f0b66d37!2sDelaware%2C%20OH%2043015%2C%20USA!5e0!3m2!1sen!2sua!4v1636376974328!5m2!1sen!2sua"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.727252826348!2d103.96273341465358!3d1.3399752619805987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d1c80f66eeb%3A0xace18efe5bb29b50!2sSUTD%20Entrepreneurship%20Centre!5e0!3m2!1sen!2slk!4v1658888834821!5m2!1sen!2slk"
                   height={460}
                   style={{ border: 0 }}
                   allowFullScreen=""
