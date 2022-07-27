@@ -11,7 +11,6 @@ export default function HowWeWrok() {
           subTitle={"Define Scope + UX/UI Design + Develop + Deploy + Maintain"}
           showButton={true}
         />
-
         <div className="container mt-5">
           <div className="row pb-5 mb-md-4 mb-lg-2">
             <div className=" col-md-6">
