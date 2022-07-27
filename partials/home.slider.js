@@ -31,10 +31,6 @@ export const HomeSlider = () => (
                   className="mySwiper"
                 >
                   <SwiperSlide>
-                    <div className="scale-up">
-                      <p className="hero mb-2">WE’RE CEYBEX </p>
-                    </div>
-
                     <h2 className="display-2   mb-lg-4 c-white">
                       Custom Software Development Company
                     </h2>
@@ -47,12 +43,6 @@ export const HomeSlider = () => (
                   </SwiperSlide>
 
                   <SwiperSlide>
-                    <div className="scale-up">
-                      <p className="hero mb-2">
-                        .NET Core + Angular + React + Vue
-                      </p>
-                    </div>
-
                     <h2 className="display-2 from-start mb-lg-4 c-white">
                       Web Application <br /> Development
                     </h2>
@@ -64,12 +54,6 @@ export const HomeSlider = () => (
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="scale-up">
-                      <p className="hero mb-2">
-                        {" "}
-                        Amazon AWS + Microsoft Azure + Google Cloud{" "}
-                      </p>
-                    </div>
                     <h2 className="display-2 from-start mb-lg-4 c-white">
                       {" "}
                       Cloud Software <br /> Development{" "}
@@ -82,12 +66,6 @@ export const HomeSlider = () => (
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="scale-up">
-                      <p className="hero mb-2">
-                        {" "}
-                        ASP + jQuery + VB + PHP + API{" "}
-                      </p>
-                    </div>
                     <h2 className="display-2 from-start mb-lg-4 c-white">
                       {" "}
                       Upgrade Applications{" "}
@@ -100,9 +78,6 @@ export const HomeSlider = () => (
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="scale-up">
-                      <p className="hero mb-2"> App + Web + Portal </p>
-                    </div>
                     <h2 className="display-2 from-start mb-lg-4 c-white">
                       {" "}
                       Startup Services{" "}
