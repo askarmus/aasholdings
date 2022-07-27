@@ -35,7 +35,7 @@ export const HomeSlider = () => (
                       Custom Software Development Company
                     </h2>
                     <div className="from-end">
-                      <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
+                      <p className="fs-xl text-light opacity-70  mb-lg-5 home-slider-sub">
                         World Class Mobile and Web App Development for startups
                         and innovative companies and Enterprises
                       </p>
@@ -47,7 +47,7 @@ export const HomeSlider = () => (
                       Web Application <br /> Development
                     </h2>
                     <div className="from-end">
-                      <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
+                      <p className="fs-xl text-light opacity-70  home-slider-sub mb-lg-5">
                         Develops web apps which will solve your business
                         problems, improve efficiency and save time and money.
                       </p>
@@ -59,7 +59,7 @@ export const HomeSlider = () => (
                       Cloud Software <br /> Development{" "}
                     </h2>
                     <div className="from-end">
-                      <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
+                      <p className="fs-xl text-light opacity-70  home-slider-sub mb-lg-5">
                         Leverage the cloud to get highly scalable apps without
                         deploying additional hardware.
                       </p>
@@ -71,7 +71,7 @@ export const HomeSlider = () => (
                       Upgrade Applications{" "}
                     </h2>
                     <div className="from-end">
-                      <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
+                      <p className="fs-xl text-light opacity-70  home-slider-sub mb-lg-5">
                         Modernize, renew and enhance the value of your current
                         applications.
                       </p>
@@ -83,7 +83,7 @@ export const HomeSlider = () => (
                       Startup Services{" "}
                     </h2>
                     <div className="from-end">
-                      <p className="fs-xl text-light opacity-70 pb-2 mb-lg-5">
+                      <p className="fs-xl text-light opacity-70  home-slider-sub mb-lg-5">
                         Turn your craziest idea into a successful profit making
                         product
                       </p>
