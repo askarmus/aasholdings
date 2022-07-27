@@ -32,10 +32,10 @@ export const HomeSlider = () => (
                 >
                   <SwiperSlide>
                     <div className="scale-up">
-                      <p className="hero mb-2">WE’RE NADECK </p>
+                      <p className="hero mb-2">WE’RE CEYBEX </p>
                     </div>
 
-                    <h2 className="display-2 from-start mb-lg-4 c-white">
+                    <h2 className="display-2   mb-lg-4 c-white">
                       Custom Software Development Company
                     </h2>
                     <div className="from-end">
