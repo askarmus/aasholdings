@@ -56,7 +56,7 @@ function Layout({ children, meta }) {
           name="twitter:image"
           content={
             meta?.imageTwitter ||
-            "https://www.stackify.me/images/social-share/fb.png"
+            "https://www.ceybex.com/assets/image/facebook-og.jpg"
           }
         />
 
@@ -68,7 +68,7 @@ function Layout({ children, meta }) {
         <meta
           property="og:title"
           content={
-            meta?.title || "Custom software development & design - NAVDECK"
+            meta?.title || "Custom software development & design - Ceybex"
           }
         />
         <meta
@@ -82,7 +82,7 @@ function Layout({ children, meta }) {
           property="og:image"
           content={
             meta?.imageFacebook ||
-            "https://www.stackify.me/images/social-share/fb.png"
+            "https://www.ceybex.com/assets/image/facebook-og.jpg"
           }
         />
 
