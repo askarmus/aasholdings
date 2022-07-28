@@ -23,20 +23,7 @@ export const ContactUs = () => (
               />
               <div className="invalid-feedback">Please enter your name!</div>
             </div>
-            <div className="col-sm-6 mb-4">
-              <label htmlFor="email" className="form-label fs-base">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="form-control form-control-lg"
-                required=""
-              />
-              <div className="invalid-feedback">
-                Please provide a valid email address!
-              </div>
-            </div>
+
             <div className="col-12 pb-2 mb-4">
               <label htmlFor="message" className="form-label fs-base">
                 Message
@@ -51,10 +38,7 @@ export const ContactUs = () => (
               <div className="invalid-feedback">Please enter your message!</div>
             </div>
           </div>
-          <button
-            type="submit"
-            className="btn btn-primary shadow-primary btn-lg"
-          >
+          <button type="submit" className="btn btn-primary   btn-lg">
             Send request
           </button>
         </form>

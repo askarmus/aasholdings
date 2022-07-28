@@ -115,7 +115,7 @@ export const Footer = () => (
             </div>
           </div>
           <div className="col-12 col-md-6 col-xl-3 pr-0 pl-xl-0">
-            <div className="communication-location">
+            <div className="communication-location r-communication-address mt-4 mb-4">
               <span className="d-flex">
                 <div className="footer-icons">
                   <img

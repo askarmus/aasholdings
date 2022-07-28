@@ -104,7 +104,7 @@ export default function WebApplicationnDevelopment() {
                   <div className="col py-4 my-2 my-sm-3">
                     <div className="card  h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                       <div className="card-body pt-3">
-                        <div className="d-inline-block bg-prim  shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+                        <div className="d-inline-block bg-prim   rounded-3 position-absolute top-0 translate-middle-y p-3">
                           <img
                             src="https://cdn1.iconfinder.com/data/icons/data-science-flat-1/64/data-science-database-technology-engineering-management-256.png"
                             className="d-block m-1"
@@ -128,7 +128,7 @@ export default function WebApplicationnDevelopment() {
                   <div className="col py-4 my-2 my-sm-3">
                     <div className="card  h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                       <div className="card-body pt-3">
-                        <div className="d-inline-block  bg-prim  shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+                        <div className="d-inline-block  bg-prim   rounded-3 position-absolute top-0 translate-middle-y p-3">
                           <img
                             src="https://cdn3.iconfinder.com/data/icons/future-pack/64/051-distributed-data-infrastructure-p2p-network-256.png"
                             className="d-block m-1"
@@ -152,7 +152,7 @@ export default function WebApplicationnDevelopment() {
                   <div className="col py-4 my-2 my-sm-3">
                     <div className="card  h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                       <div className="card-body pt-3">
-                        <div className="d-inline-block bg-prim  shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+                        <div className="d-inline-block bg-prim    rounded-3 position-absolute top-0 translate-middle-y p-3">
                           <img
                             src="https://cdn1.iconfinder.com/data/icons/cloud-service-24/64/Cloud-migration-service-sever-database-256.png"
                             className="d-block m-1"
@@ -177,7 +177,7 @@ export default function WebApplicationnDevelopment() {
                   <div className="col py-4 my-2 my-sm-3">
                     <div className="card  h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                       <div className="card-body pt-3">
-                        <div className="d-inline-block bg-prim  shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+                        <div className="d-inline-block bg-prim   rounded-3 position-absolute top-0 translate-middle-y p-3">
                           <img
                             src="https://cdn3.iconfinder.com/data/icons/business-round-set-1/128/CHAT-256.png"
                             className="d-block m-1"

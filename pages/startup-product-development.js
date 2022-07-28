@@ -89,7 +89,7 @@ export default function WebApplicationnDevelopment() {
                   <div className="col py-4 my-2 my-sm-3">
                     <div className="card  h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                       <div className="card-body pt-3">
-                        <div className="d-inline-block   shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+                        <div className="d-inline-block  rounded-3 position-absolute top-0 translate-middle-y p-3">
                           <img
                             src="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2021/08/23040845/Top-Talent.svg"
                             className="d-block m-1"
@@ -113,7 +113,7 @@ export default function WebApplicationnDevelopment() {
                   <div className="col py-4 my-2 my-sm-3">
                     <div className="card  h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                       <div className="card-body pt-3">
-                        <div className="d-inline-block   shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+                        <div className="d-inline-block   rounded-3 position-absolute top-0 translate-middle-y p-3">
                           <img
                             src="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2021/08/23040906/Project-Management.svg"
                             className="d-block m-1"
@@ -137,7 +137,7 @@ export default function WebApplicationnDevelopment() {
                   <div className="col py-4 my-2 my-sm-3">
                     <div className="card  h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                       <div className="card-body pt-3">
-                        <div className="d-inline-block   shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+                        <div className="d-inline-block   rounded-3 position-absolute top-0 translate-middle-y p-3">
                           <img
                             src="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2021/08/23040924/Start-Immediately.svg"
                             className="d-block m-1"
@@ -160,7 +160,7 @@ export default function WebApplicationnDevelopment() {
                   <div className="col py-4 my-2 my-sm-3">
                     <div className="card  h-100 border-0 shadow-sm text-decoration-none pt-5 px-sm-3 px-md-0 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 me-xl-2">
                       <div className="card-body pt-3">
-                        <div className="d-inline-block   shadow-primary rounded-3 position-absolute top-0 translate-middle-y p-3">
+                        <div className="d-inline-block  rounded-3 position-absolute top-0 translate-middle-y p-3">
                           <img
                             src="https://d3lkc3n5th01x7.cloudfront.net/wp-content/uploads/2021/08/23040940/Fixed-Price.svg"
                             className="d-block m-1"

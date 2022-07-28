@@ -71,20 +71,7 @@ export default function HowWeWrok() {
                     placeholder="00-000-0000"
                   />
                 </div>
-                <div className="col-sm-6 mb-4">
-                  <label htmlFor="email" className="form-label fs-base">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    className="form-control form-control-lg"
-                    required=""
-                  />
-                  <div className="invalid-feedback">
-                    Please provide a valid email address!
-                  </div>
-                </div>
+
                 <div className="col-12 mb-4">
                   <label htmlFor="message" className="form-label fs-base">
                     Message
@@ -102,10 +89,7 @@ export default function HowWeWrok() {
                 </div>
               </div>
 
-              <button
-                type="submit"
-                className="btn btn-primary btn-lg shadow-primary"
-              >
+              <button type="submit" className="btn btn-primary btn-lg ">
                 Submit form
               </button>
             </form>
