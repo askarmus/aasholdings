@@ -4,9 +4,9 @@ export const Process = () => (
       className="d-none d-lg-block"
       style={{ marginTop: "-60px", paddingTop: 60 }}
     />
-    <div className="container pb-4 pt-5">
+    <div className="container pb-4  ">
       <h2 className="h1 text-center text-md-start mb-lg-4 pt-1 pt-md-4">
-        End-To-End App Development
+        App Development Process
       </h2>
       <div className="row align-items-center pb-5 mb-lg-2">
         <div className="col-md-8 text-center text-md-start">
@@ -78,7 +78,7 @@ export const Process = () => (
 export const Process1 = () => (
   <section className="container py-5 my-2 my-md-4 my-lg-5 ">
     <h2 className="h1 text-center pt-1 pt-xl-2 mb-4">
-      End-To-End App Development
+      App Development Process
     </h2>
     <p className="fs-lg text-muted text-center pb-4 mb-2 mb-lg-3">
       Ceybex focus has been offshore software development, website designing,
