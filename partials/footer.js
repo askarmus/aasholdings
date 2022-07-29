@@ -91,7 +91,7 @@ export const Footer = () => (
               <img
                 width={114}
                 height={41}
-                src="assets/image/logo.png"
+                src="assets/image/logo-white.png"
                 alt="mi logo"
                 className="footer-logo"
                 loading="lazy"

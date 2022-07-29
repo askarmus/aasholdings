@@ -2391,8 +2391,8 @@ textarea.form-control-lg{
 }
 .btn-primary{
    color:#000;
-   background-color:#4e54c8;
-   border-color:#4e54c8;
+   background-color:#000;
+   border-color:#000;
    box-shadow:unset
 }
 .btn-primary:hover{
@@ -6532,7 +6532,7 @@ textarea.form-control-lg{
    background-attachment:fixed !important
 }
 .bg-gradient-primary {
-    background: linear-gradient(90deg, #5e67f8 0%, #240b5c 50%, #050655 100%) !important;
+    background: linear-gradient(90deg, #2b2b30 0%, #454348 50%, #09090a 100%) !important;
 }
 .bg-gradient-primary-translucent{
    background:linear-gradient(180deg, rgba(99, 102, 241, 0) 0%, rgba(99, 102, 241, 0.6) 120%) !important
