@@ -42,7 +42,7 @@ export const HomeSlider = () => (
                     </div>
                   </SwiperSlide>
 
-                  {/* <SwiperSlide>
+                  <SwiperSlide>
                     <h2 className="display-2 from-start mb-lg-4 c-white">
                       Web Application <br /> Development
                     </h2>
@@ -88,7 +88,7 @@ export const HomeSlider = () => (
                         product
                       </p>
                     </div>
-                  </SwiperSlide> */}
+                  </SwiperSlide>
                 </Swiper>
               </div>
             </div>
