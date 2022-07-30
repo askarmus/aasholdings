@@ -99,7 +99,9 @@ export function Header() {
           </div>
           <div className="offcanvas-footer border-top">
             <Link href="contact-us">
-              <a className="btn-primary-red w-100">Get a Free Consultation</a>
+              <a className="btn btn-primary-red w-100">
+                Get a Free Consultation
+              </a>
             </Link>
           </div>
         </div>
@@ -122,7 +124,7 @@ export function Header() {
           </button>
         </VisibilitySensor>
         <Link href="contact-us">
-          <a className="btn btn-primary-red btn-sm fs-sm rounded d-none d-lg-inline-flex">
+          <a className="btn btn-primary-red  fs-sm rounded d-none d-lg-inline-flex">
             Get a Free Consultation
           </a>
         </Link>
