@@ -5,9 +5,13 @@ export const Process = () => (
       style={{ marginTop: "-60px", paddingTop: 60 }}
     />
     <div className="container pb-4  ">
-      <h2 className="h1 text-center text-md-start mb-lg-4 pt-1 pt-md-4">
-        App Development Process
-      </h2>
+      <div className="title-style-one mb-3">
+        <div className="upper-title">Our Process</div>{" "}
+        <h2 className="title">
+          App <span>development</span> process.
+        </h2>{" "}
+      </div>
+
       <div className="row align-items-center pb-5 mb-lg-2">
         <div className="col-md-8 text-center text-md-start">
           <p className="fs-lg text-muted mb-md-0">

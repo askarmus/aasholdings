@@ -4,9 +4,11 @@ import "swiper/css";
 export const TechStack = () => (
   <>
     <section className="container pb-3 pb-lg-5 mb-3 mt-5">
-      <h1 className="mb-4 text-center">
-        The tech stack designed for building competitive products
-      </h1>
+      <div className="title-style-one mb-3 mb-4 text-center">
+        <h2 className="title">
+          The tech stack designed for building <span>competitive</span> products
+        </h2>{" "}
+      </div>
 
       <p className="mb-4 text-center">
         Just like you, we choose scalable and flexible technologies. The

@@ -1,100 +1,118 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import Link from "next/link";
 import "swiper/css";
 export const HomeSlider = () => (
-  <>
-    <section
-      className="jarallax   py-xxl-5 banner-section"
-      data-jarallax=""
-      data-speed="0.4"
-    >
-      <span className="position-absolute top-0 start-0 w-100 h-100 bg-gradient-dark-translucent" />
-      <div className="jarallax-img" />
-      <div className="position-relative text-center zindex-5 overflow-hidden pt-4 py-md-5">
-        {/* Slider */}
-        <div className="container text-center py-xl-5">
-          <div className="row justify-content-center pt-lg-5">
-            <div className="col-xl-8 col-lg-9 col-md-10 col-11">
-              <div className="swiper pt-5 pb-4 py-md-5">
-                <Swiper
-                  spaceBetween={30}
-                  centeredSlides={true}
-                  autoplay={{
-                    delay: 7000,
-                    disableOnInteraction: false,
-                  }}
-                  pagination={{
-                    clickable: true,
-                  }}
-                  navigation={true}
-                  modules={[Autoplay, Pagination, Navigation]}
-                  className="mySwiper"
-                >
-                  <SwiperSlide>
-                    <h2 className="display-2   mb-lg-4 c-white">
-                      Custom Software Development Company
-                    </h2>
-                    <div className="from-end">
-                      <p className="fs-xl text-light opacity-70  mb-lg-5 home-slider-sub">
-                        World Class Mobile and Web App Development for startups
-                        and innovative companies and Enterprises
-                      </p>
-                    </div>
-                  </SwiperSlide>
+  <section className="pt-lg-4 mt-lg-3">
+    <div className="position-relative overflow-hidden">
+      {/* Image */}
+      <div className="container-fluid position-relative position-lg-absolute top-0 start-0 h-100">
+        <div className="row h-100 me-n4 me-n2">
+          <div className="col-lg-7 position-relative">
+            <div className="d-none d-sm-block d-lg-none" />
+            <div className="d-sm-none" style={{ height: "300px" }} />
+            <div
+              className="jarallax position-absolute top-0 start-0 w-100 h-100 rounded-3 rounded-start-0 overflow-hidden"
+              data-jarallax
+              data-speed="0.3"
+            >
+              <div
+                id="jarallax-container-0"
+                style={{
+                  position: "absolute",
+                  top: "0px",
+                  left: "0px",
+                  width: "100%",
+                  height: "100%",
+                  overflow: "hidden",
+                  zIndex: -100,
+                  clipPath: "polygon(0px 0px, 100% 0px, 100% 100%, 0px 100%)",
+                }}
+              >
+                <div
+                  className="jarallax-img"
+                  style={{
+                    backgroundImage: 'url("assets/image/hero-img.jpg")',
+                    objectFit: "cover",
+                    objectPosition: "50% 50%",
+                    maxWidth: "none",
+                    position: "fixed",
+                    top: "0px",
+                    left: "0px",
+                    width: "1117.08px",
 
-                  <SwiperSlide>
-                    <h2 className="display-2 from-start mb-lg-4 c-white">
-                      Web Application <br /> Development
-                    </h2>
-                    <div className="from-end">
-                      <p className="fs-xl text-light opacity-70  home-slider-sub mb-lg-5">
-                        Develops web apps which will solve your business
-                        problems, improve efficiency and save time and money.
-                      </p>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <h2 className="display-2 from-start mb-lg-4 c-white">
-                      {" "}
-                      Cloud Software <br /> Development{" "}
-                    </h2>
-                    <div className="from-end">
-                      <p className="fs-xl text-light opacity-70  home-slider-sub mb-lg-5">
-                        Leverage the cloud to get highly scalable apps without
-                        deploying additional hardware.
-                      </p>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <h2 className="display-2 from-start mb-lg-4 c-white">
-                      {" "}
-                      Upgrade Applications{" "}
-                    </h2>
-                    <div className="from-end">
-                      <p className="fs-xl text-light opacity-70  home-slider-sub mb-lg-5">
-                        Modernize, renew and enhance the value of your current
-                        applications.
-                      </p>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <h2 className="display-2 from-start mb-lg-4 c-white">
-                      {" "}
-                      Startup Services{" "}
-                    </h2>
-                    <div className="from-end">
-                      <p className="fs-xl text-light opacity-70  home-slider-sub mb-lg-5">
-                        Turn your craziest idea into a successful profit making
-                        product
-                      </p>
-                    </div>
-                  </SwiperSlide>
-                </Swiper>
+                    overflow: "hidden",
+                    pointerEvents: "none",
+                    transformStyle: "preserve-3d",
+                    backfaceVisibility: "hidden",
+                    willChange: "transform, opacity",
+                    marginTop: "-86.6766px",
+                    transform: "translate3d(0px, 121.477px, 0px)",
+                  }}
+                  data-jarallax-original-styles="background-image: url(assets/img/landing/financial/hero-img.jpg);"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  </>
+      <div className="container position-relative zindex-5 pt-lg-5 px-0 px-lg-3">
+        <div className="row pt-lg-5 mx-n4 mx-lg-n3">
+          <div className="col-xl-6 col-lg-7 offset-lg-5 offset-xl-6 pb-5">
+            {/* Card */}
+            <div className="card bg-dark-red border-light overflow-hidden py-4 px-2 p-sm-4">
+              <span
+                className="position-absolute top-0 start-0 w-100 h-100"
+                style={{ backgroundColor: "rgba(255,255,255,.05)" }}
+              />
+              <div className="card-body position-relative zindex-5">
+                <h1 className="display-5 text-light pb-3 mb-3">
+                  Your vi­sion, <br></br> our ex­per­tise.
+                </h1>
+                <p className="fs-lg text-light opacity-70 mb-5">
+                  We’re an Singapore soft­ware com­pany that ex­cels at
+                  de­sign­ing & de­vel­op­ing soft­ware so­lu­tions with the
+                  right mix of peo­ple, process & tools
+                </p>
+                <div className="d-flex flex-column flex-sm-row">
+                  <Link href="contact-us">
+                    <a className="btn btn-primary shadow-primary btn-lg mb-3 mb-sm-0 me-sm-4">
+                      Get a Free Consultation
+                    </a>
+                  </Link>
+
+                  <Link href="about-us">
+                    <a href="#" className="btn btn-outline-light btn-lg">
+                      Who we are
+                      <i className="bx bx-right-arrow-alt fs-4 lh-1 ms-2 me-n1" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-xxl-3 col-lg-4 offset-lg-8 offset-xxl-9 pt-lg-5 mt-xxl-5">
+            {/* Contacts (List) */}
+            <ul className="list-unstyled mb-0 px-4 px-lg-0">
+              <li className="d-flex align-items-center pb-1 mb-2">
+                <i className="bx bx-envelope fs-xl text-primary me-2" />
+                <a
+                  href="mailto:team@ceybex.com"
+                  className="nav-link fw-normal p-0"
+                >
+                  team@ceybex.com
+                </a>
+              </li>
+              <li className="d-flex align-items-center pb-1 mb-2">
+                <i className="bx bx-phone-call fs-xl text-primary me-2" />
+                <a href="tel:4065550120" className="nav-link fw-normal p-0">
+                  (406) 555-0120
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 );

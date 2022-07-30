@@ -15,7 +15,11 @@ export default function HowWeWrok() {
           <div className="row pt-4 mt-lg-3 pb-5 mb-lg-4 mb-xl-5">
             {/* Page title */}
             <div className="col-md-4">
-              <h1 className="mb-md-4">Get in Touch</h1>
+              <div className="title-style-one mb-3 mb-4">
+                <h2 className="title">
+                  Get in <span>Touch</span>{" "}
+                </h2>{" "}
+              </div>
               <p className="fs-lg pb-2">
                 Have a&nbsp;project in&nbsp;mind? To&nbsp;request a&nbsp;quote
                 contact us&nbsp;directly or&nbsp;fill out the form and let

@@ -20,12 +20,15 @@ export default function WebApplicationnDevelopment() {
           <section className="our-Approach  p-md-2 p-lg-5">
             <div className="d-none d-lg-block" />
             <div className="container pb-4 pt-5">
-              <span className="top-small-heading">
-                Trusted Web App Development
-              </span>
-              <h2 className="main-heading mb-40">
-                Specialized to Create Robust Website and Applications.{" "}
-              </h2>
+              <span className="top-small-heading"></span>
+              <div className="title-style-one mb-5">
+                <div className="upper-title">Web Development</div>{" "}
+                <h2 className="title">
+                  Specialized to Create <span>Robust Website and</span>{" "}
+                  Applications
+                </h2>{" "}
+              </div>
+
               <p className="largeText">
                 As a leading web development company, we always create robust,
                 secure, custom web application with high scalability. According

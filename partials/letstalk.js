@@ -1,25 +1,28 @@
 import Link from "next/link";
 
 export const LetsTalk = () => (
-  <section className="bg-gradient-primary ">
+  <section className="bg-dark-light">
     <div className="container py-2 py-md-4   py-lg-5">
       <div className="row py-xl-3">
         <div className="col-xl-5 col-lg-6 offset-xl-1 order-lg-2 mb-4">
-          <h2 className="h1 text-light text-center text-sm-start pb-4 mb-0 mb-lg-3">
-            Let's talk about your product
-          </h2>
+          <div className="title-style-one mb-3">
+            <h2 className="title">
+              Let's <span>talk</span> about your product.
+            </h2>{" "}
+          </div>
+
           <div className="d-flex align-items-center">
-            <p className="fs-xl text-light   mb-0">
+            <p className="fs-xl    mb-0">
               We love engaging with new clients and our community. If you have
               an inquiry about building digital products or any other questions,
               get in touch!
             </p>
           </div>
           <div className="mt-4 d-flex flex-column flex-sm-row  ">
-            <a href="#" className="btn btn-outline-light btn-lg m-2  ">
+            <a href="#" className="btn btn-primary btn-lg m-2  ">
               team@ceybex.com
             </a>
-            <a href="#" className="btn btn-outline-light btn-lg m-2">
+            <a href="#" className="btn btn-primary  btn-lg m-2">
               +6525852858
             </a>
           </div>
@@ -33,13 +36,13 @@ export const LetsTalk = () => (
               alt="Jane Cooper"
             />
             <div className="ps-3">
-              <h4 className="fw-semibold lh-base mb-0 text-white">Sean Tan</h4>
+              <h4 className="fw-semibold lh-base mb-0 ">Sean Tan</h4>
 
-              <h6 className="fw-semibold lh-base mb-0 text-white">
+              <h6 className="fw-semibold lh-base mb-0 ">
                 Co-Founder and Team Lead
               </h6>
               <a href="mailto:sean@ceybex.com" className="no-underline">
-                <span className="fs-sm c-white d-inline-flex align-items-center">
+                <span className="fs-sm d-inline-flex align-items-center">
                   sean@ceybex.com{" "}
                   <i className="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
                 </span>
@@ -55,12 +58,10 @@ export const LetsTalk = () => (
               alt="Jane Cooper"
             />
             <div className="ps-3">
-              <h4 className="fw-semibold lh-base mb-0 text-white">
-                Askar Musthaffa
-              </h4>
-              <h6 className="fw-semibold lh-base mb-0 text-white">Tech Lead</h6>
+              <h4 className="fw-semibold lh-base mb-0 ">Askar Musthaffa</h4>
+              <h6 className="fw-semibold lh-base mb-0 ">Tech Lead</h6>
               <a href="mailto:askar@ceybex.com" className="no-underline">
-                <span className="fs-sm c-white d-inline-flex align-items-center">
+                <span className="fs-sm d-inline-flex align-items-center">
                   askar@ceybex.com{" "}
                   <i className="bx bx-right-arrow-circle text-primary fs-3 ms-2"></i>
                 </span>

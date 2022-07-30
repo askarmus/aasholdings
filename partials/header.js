@@ -34,6 +34,11 @@ export function Header() {
           </div>
           <div className="offcanvas-body">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li>
+                <Link href="/">
+                  <a class="dropdown-item menu-active">Home</a>
+                </Link>
+              </li>
               <li class="nav-item dropdown">
                 <a
                   onClick={() => setServiceOpen(!isServiceOpen)}
@@ -94,7 +99,7 @@ export function Header() {
           </div>
           <div className="offcanvas-footer border-top">
             <Link href="contact-us">
-              <a className="btn btn-primary w-100">Get a Free Consultation</a>
+              <a className="btn-primary-red w-100">Get a Free Consultation</a>
             </Link>
           </div>
         </div>
@@ -117,7 +122,7 @@ export function Header() {
           </button>
         </VisibilitySensor>
         <Link href="contact-us">
-          <a className="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex">
+          <a className="btn btn-primary-red btn-sm fs-sm rounded d-none d-lg-inline-flex">
             Get a Free Consultation
           </a>
         </Link>
