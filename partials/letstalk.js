@@ -5,13 +5,13 @@ export const LetsTalk = () => (
     <div className="container py-2 py-md-4   py-lg-5">
       <div className="row py-xl-3">
         <div className="col-xl-5 col-lg-6 offset-xl-1 order-lg-2 mb-4">
-          <div className="title-style-one mb-3">
+          <div className="title-style-one mb-3 text-center text-md-start">
             <h2 className="title">
               Let's <span>talk</span> about your product.
             </h2>{" "}
           </div>
 
-          <div className="d-flex align-items-center">
+          <div className="d-flex align-items-center text-center text-md-start">
             <p className="fs-xl    mb-0">
               We love engaging with new clients and our community. If you have
               an inquiry about building digital products or any other questions,

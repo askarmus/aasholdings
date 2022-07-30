@@ -1,11 +1,11 @@
 export const Process = () => (
-  <section className="bg-secondary pb-md-2 pb-lg-5">
+  <section className="bg-secondary py-5">
     <div
       className="d-none d-lg-block"
       style={{ marginTop: "-60px", paddingTop: 60 }}
     />
     <div className="container pb-4  ">
-      <div className="title-style-one mb-3">
+      <div className="title-style-one mb-3 text-center text-md-start">
         <div className="upper-title">Our Process</div>{" "}
         <h2 className="title">
           App <span>development</span> process.

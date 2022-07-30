@@ -36,7 +36,7 @@ export function Header() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li>
                 <Link href="/">
-                  <a class="dropdown-item menu-active">Home</a>
+                  <a class="nav-link menu-active">Home</a>
                 </Link>
               </li>
               <li class="nav-item dropdown">
