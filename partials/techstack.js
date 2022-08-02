@@ -2,185 +2,66 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 import "swiper/css";
 export const TechStack = () => (
-  <>
-    <section className="container pb-3 pb-lg-5 mb-3 mt-5">
-      <div className="title-style-one mb-3 mb-4 text-center">
-        <h2 className="title">
-          The tech stack designed for building <span>competitive</span> products
-        </h2>{" "}
+  <section className="bg-dark-light pb-3 pb-lg-5 mb-3 mt-5">
+    <div className="container py-2 py-md-4 py-lg-5 technologies">
+      <div className="row">
+        <div className="col-lg-5 pe-lg-5 pb-5 pb-lg-0">
+          <div className="title-style-one mb-3 text-center text-md-start">
+            <div className="upper-title">Technology</div>{" "}
+            <h2 className="title">
+              Our core <span>technology </span> stack.
+            </h2>{" "}
+          </div>
+          <p className="fs-lg text-muted mb-md-0">
+            Innovative and reliable networks solutions developed with
+            cutting-edge and diverse technologies.
+          </p>
+        </div>
+        <div className="col-lg-7">
+          <div className="row">
+            <div className="col-md-3 col-6">
+              <div className="tech-card">
+                <img src="https://panalinks.com/wp-content/uploads/2020/08/azure.png" />
+              </div>
+            </div>
+            <div className="col-md-3 col-6">
+              <div className="tech-card">
+                <img src="https://thoughtram.io/images/next/angular.svg" />
+              </div>
+            </div>
+            <div className="col-md-3 col-6">
+              <div className="tech-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" />
+              </div>
+            </div>
+            <div className="col-md-3 col-6">
+              <div className="tech-card">
+                <img src="https://panalinks.com/wp-content/uploads/2020/08/node-js.png" />
+              </div>
+            </div>
+            <div className="col-md-3 col-6">
+              <div className="tech-card">
+                <img src="https://panalinks.com/wp-content/uploads/2020/08/mongodb.png" />
+              </div>
+            </div>
+            <div className="col-md-3 col-6">
+              <div className="tech-card">
+                <img src="https://panalinks.com/wp-content/uploads/2020/08/react.png" />
+              </div>
+            </div>
+            <div className="col-md-3 col-6">
+              <div className="tech-card">
+                <img src="https://cdn2.iconfinder.com/data/icons/boxicons-logos/24/bxl-flutter-256.png" />
+              </div>
+            </div>
+            <div className="col-md-3 col-6">
+              <div className="tech-card">
+                <img src="https://cdn1.iconfinder.com/data/icons/ionicons-fill-vol-2/512/logo-javascript-256.png" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <p className="mb-4 text-center">
-        Just like you, we choose scalable and flexible technologies. The
-        engineering mindset our talents have already solved the challenges of
-        many clients. Unsure how to lead development forward? Your future team
-        will guide you to the most optimal software solutions and strategies.
-        <br></br>
-      </p>
-
-      <div className="mt-5 mb-5 text-center">
-        <strong>Work with future-proof technologies</strong>
-      </div>
-      <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        breakpoints={{
-          // when window width is >= 640px
-          500: {
-            width: 640,
-            slidesPerView: 3,
-            spaceBetween: 8,
-          },
-          // when window width is >= 768px
-          650: {
-            width: 650,
-            slidesPerView: 4,
-            spaceBetween: 8,
-          },
-          900: {
-            width: 900,
-            slidesPerView: 5,
-            spaceBetween: 8,
-          },
-          1100: {
-            width: 1100,
-            slidesPerView: 6,
-            spaceBetween: 3,
-          },
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <div className="swiper-slide py-3 swiper-slide-next" role="group">
-            <a href="#" className="card card-body  px-2 mx-2">
-              <img
-                src="https://panalinks.com/wp-content/uploads/2020/08/azure.png"
-                className="d-block mx-auto my-2"
-                style={{ height: 60 }}
-                alt="Brand"
-              />
-            </a>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper-slide py-3 swiper-slide-next" role="group">
-            <a href="#" className="card card-body  px-2 mx-2">
-              <img
-                src="https://panalinks.com/wp-content/uploads/2020/08/vue.js.png"
-                className="d-block mx-auto my-2"
-                style={{ height: 60 }}
-                alt="Brand"
-              />
-            </a>
-          </div>
-        </SwiperSlide>{" "}
-        <SwiperSlide>
-          <div
-            className="swiper-slide py-3 swiper-slide-next"
-            role="group"
-            aria-label="2 / 6"
-            style={{ width: 212, marginRight: 8 }}
-          >
-            <a href="#" className="card card-body  px-2 mx-2">
-              <img
-                src="https://panalinks.com/wp-content/uploads/2020/08/react.png"
-                className="d-block mx-auto my-2"
-                style={{ height: 60 }}
-                alt="Brand"
-              />
-            </a>
-          </div>
-        </SwiperSlide>{" "}
-        <SwiperSlide>
-          <div
-            className="swiper-slide py-3 swiper-slide-next"
-            role="group"
-            aria-label="2 / 6"
-            style={{ width: 212, marginRight: 8 }}
-          >
-            <a href="#" className="card card-body  px-2 mx-2">
-              <img
-                src="https://thoughtram.io/images/next/angular.svg"
-                className="d-block mx-auto my-2"
-                style={{ height: 60 }}
-                alt="Brand"
-              />
-            </a>
-          </div>
-        </SwiperSlide>{" "}
-        <SwiperSlide>
-          <div
-            className="swiper-slide py-3 swiper-slide-next"
-            role="group"
-            aria-label="2 / 6"
-            style={{ height: 60 }}
-          >
-            <a href="#" className="card card-body  px-2 mx-2">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png"
-                className="d-block mx-auto my-2"
-                style={{ height: 60 }}
-                alt="Brand"
-              />
-            </a>
-          </div>
-        </SwiperSlide>{" "}
-        <SwiperSlide>
-          <div
-            className="swiper-slide py-3 swiper-slide-next"
-            role="group"
-            aria-label="2 / 6"
-            style={{ width: 212, marginRight: 8 }}
-          >
-            <a href="#" className="card card-body  px-2 mx-2">
-              <img
-                src="https://panalinks.com/wp-content/uploads/2020/08/node-js.png"
-                className="d-block mx-auto my-2"
-                style={{ height: 60 }}
-                alt="Brand"
-              />
-            </a>
-          </div>
-        </SwiperSlide>{" "}
-        <SwiperSlide>
-          <div
-            className="swiper-slide py-3 swiper-slide-next"
-            role="group"
-            aria-label="2 / 6"
-            style={{ width: 212, marginRight: 8 }}
-          >
-            <a href="#" className="card card-body  px-2 mx-2">
-              <img
-                src="https://panalinks.com/wp-content/uploads/2020/08/mongodb.png"
-                className="d-block mx-auto my-2"
-                style={{ height: 60 }}
-                alt="Brand"
-              />
-            </a>
-          </div>
-        </SwiperSlide>{" "}
-        <SwiperSlide>
-          <div
-            className="swiper-slide py-3 swiper-slide-next"
-            role="group"
-            aria-label="2 / 6"
-            style={{ width: 212, marginRight: 8 }}
-          >
-            <a href="#" className="card card-body  px-2 mx-2">
-              <img
-                src="https://cdn-images-1.medium.com/max/1200/1*nE4OFcqk2kx2-Lzhey8QKA.png"
-                className="d-block mx-auto my-2"
-                style={{ height: 60 }}
-                alt="Brand"
-              />
-            </a>
-          </div>
-        </SwiperSlide>
-      </Swiper>
-    </section>
-  </>
+    </div>
+  </section>
 );

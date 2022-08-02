@@ -14440,3 +14440,17 @@ img-comparison-slider:focus{
     border-color: #FF2759;
     box-shadow: unset;
 }
+
+.technologies img{
+    max-width: 80px;
+    
+}
+
+.technologies .tech-card {
+    width: 180px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}

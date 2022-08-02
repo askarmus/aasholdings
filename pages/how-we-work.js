@@ -1,6 +1,7 @@
 import { ContactUs } from "../partials/contact.us";
 import Layout from "../partials/layout";
 import { PageInnerHeader } from "../partials/page.inner.header";
+import { TechStack } from "../partials/techstack";
 
 export default function HowWeWrok() {
   return (
@@ -235,7 +236,7 @@ export default function HowWeWrok() {
             </div>
           </div>
         </div>
-        <ContactUs />
+        <TechStack />
       </main>
     </Layout>
   );

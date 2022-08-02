@@ -5,6 +5,7 @@ import Layout from "../partials/layout";
 import { LetsTalk } from "../partials/letstalk";
 import { Process } from "../partials/process";
 import { Review } from "../partials/review";
+import { TechStack } from "../partials/techstack";
 import { WhoWeAre } from "../partials/who.we.are";
 
 export default function Home() {
