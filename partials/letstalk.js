@@ -28,7 +28,7 @@ export const LetsTalk = () => (
           </div>
         </div>
         <div className="col-xl-5 col-lg-6 order-lg-1">
-          <figcaption className="d-flex align-items-center pt-3 ps-1 ps-sm-3">
+          {/* <figcaption className="d-flex align-items-center pt-3 ps-1 ps-sm-3">
             <img
               src="https://media-exp1.licdn.com/dms/image/C5603AQErdvSb6zND7A/profile-displayphoto-shrink_400_400/0/1589785320868?e=1661990400&v=beta&t=SV7IfjZ3VuCJHGkjuqAGARUF1ggcY3zS86cH8qnA5MM"
               width={120}
@@ -48,7 +48,7 @@ export const LetsTalk = () => (
                 </span>
               </a>
             </div>
-          </figcaption>
+          </figcaption> */}
 
           <figcaption className="d-flex align-items-center pt-3 ps-1 ps-sm-3">
             <img
