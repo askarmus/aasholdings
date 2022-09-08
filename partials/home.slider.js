@@ -70,7 +70,7 @@ export const HomeSlider = () => (
                   Your vi­sion, <br></br> our ex­per­tise.
                 </h1>
                 <p className="fs-lg text-light opacity-70 mb-5">
-                  We’re an Singapore soft­ware com­pany that ex­cels at
+                  We’re an Sri Lankan soft­ware com­pany that ex­cels at
                   de­sign­ing & de­vel­op­ing soft­ware so­lu­tions with the
                   right mix of peo­ple, process & tools
                 </p>
@@ -105,8 +105,8 @@ export const HomeSlider = () => (
               </li>
               <li className="d-flex align-items-center pb-1 mb-2">
                 <i className="bx bx-phone-call fs-xl text-primary me-2" />
-                <a href="tel:4065550120" className="nav-link fw-normal p-0">
-                  (406) 555-0120
+                <a href="tel:+94779059394" className="nav-link fw-normal p-0">
+                  +94779059394
                 </a>
               </li>
             </ul>

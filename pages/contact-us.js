@@ -72,7 +72,6 @@ export default function HowWeWrok() {
                     data-delimiter="-"
                     data-blocks="2 3 4"
                     data-numeral={9}
-                    placeholder="00-000-0000"
                   />
                 </div>
 
@@ -116,17 +115,19 @@ export default function HowWeWrok() {
                 <li className="mb-3 mb-lg-4">
                   <span className="d-block fs-sm text-muted">Phone</span>
                   <a
-                    href="tel:4065550120"
+                    href="tel:+94779059394"
                     className="nav-link d-inline-block fs-lg p-0"
                   >
-                    (406) 555-0120
+                    +94779059394
                   </a>
                 </li>
                 <li className="mb-3 mb-lg-4">
                   <span className="d-block fs-sm text-muted">Headquarters</span>
                   <div className="text-nav fs-lg fw-medium">
-                    8 Somapah Road, SUTD Entrepreneurship Centre, Singapore,
-                    487372, SG
+                    <p>
+                      20 Galle Road, Wellawatte <br></br> Western Province{" "}
+                      <br></br> Sri Lanka
+                    </p>
                   </div>
                 </li>
               </ul>

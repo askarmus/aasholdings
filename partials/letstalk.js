@@ -23,7 +23,7 @@ export const LetsTalk = () => (
               team@ceybex.com
             </a>
             <a href="#" className="btn btn-primary  btn-lg m-2">
-              +6525852858
+              +94779059394
             </a>
           </div>
         </div>
@@ -52,7 +52,7 @@ export const LetsTalk = () => (
 
           <figcaption className="d-flex align-items-center pt-3 ps-1 ps-sm-3">
             <img
-              src="https://media-exp1.licdn.com/dms/image/C4D03AQGhl_lGcmUFGA/profile-displayphoto-shrink_400_400/0/1655980111928?e=1661990400&v=beta&t=a_CHdqb29gL7lGCx7p7CGeO71q0T9lUO7y-KEm1ignU"
+              src="/assets/image/askar.jpg"
               width={120}
               className="rounded-circle"
               alt="Jane Cooper"

@@ -13,7 +13,7 @@ export default function HowWeWrok() {
         />
         <div className="container mt-5">
           <p className="display-7 text-center">
-            Founded in 2005, Ceybex focus has been offshore software
+            Founded in 2020, Ceybex focus has been offshore software
             development, website designing, website maintenance, website hosting
             and web development.
           </p>
@@ -21,7 +21,7 @@ export default function HowWeWrok() {
             <div className="row pt-xl-3">
               <div className="col-md-5 text-center text-md-start pb-5">
                 <p className="txt-light">
-                  Founded in 2005, Ceybex focus has been Mobile App, and Web
+                  Founded in 2020, Ceybex focus has been Mobile App, and Web
                   Development and Web Design.
                 </p>
                 <p>

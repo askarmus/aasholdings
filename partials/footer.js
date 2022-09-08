@@ -107,14 +107,14 @@ export const Footer = () => (
                     alt="address"
                   />
                 </div>{" "}
-                Singapore
+                Sri Lanka
               </span>
-              <p> 8 Somapah Road,</p>
-              <p>SUTD Entrepreneurship Centre</p>
-              <p>Singapore, 487372, SG</p>
+              <p>20 Galle Road, Wellawatte</p>
+              <p>Western Province</p>
+              <p>Sri Lanka</p>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-xl-3 pr-0 pl-xl-0">
+          {/* <div className="col-12 col-md-6 col-xl-3 pr-0 pl-xl-0">
             <div className="communication-location r-communication-address mt-4 mb-4">
               <span className="d-flex">
                 <div className="footer-icons">
@@ -125,11 +125,11 @@ export const Footer = () => (
                 </div>{" "}
                 Sri Lanka
               </span>
-              <p>141 World Trade Center,</p>
+              <p>20 Galle Road, Wellawatte</p>
               <p>Western Province</p>
               <p>Sri Lanka</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
