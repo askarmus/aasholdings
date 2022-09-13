@@ -55,6 +55,11 @@ export const Footer = () => (
                         Contact Us
                       </a>
                     </Link>
+                     
+                      <a className="link-white" href="https://www.linkedin.com/company/ceybex" target= "_blank">
+                        LinkedIn
+                      </a>
+                   
                   </li>
                 </ul>
               </div>
