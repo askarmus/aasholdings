@@ -56,7 +56,7 @@ function Layout({ children, meta }) {
           name="twitter:image"
           content={
             meta?.imageTwitter ||
-            "https://www.ceybex.com/assets/image/facebook-og.jpg"
+            "https://www.ceybex.com/assets/image/social-share-1.png"
           }
         />
 
@@ -82,7 +82,7 @@ function Layout({ children, meta }) {
           property="og:image"
           content={
             meta?.imageFacebook ||
-            "https://www.ceybex.com/assets/image/facebook-og.jpg"
+            "https://www.ceybex.com/assets/image/social-share-1.png"
           }
         />
 
