@@ -8,6 +8,7 @@ import { WhoWeAre } from "../partials/who.we.are";
 export default function Home() {
   const accordionData = [
     {
+      
       title: "Web Development",
       content: ` <p> Ceybex is a premier website development agency that can guide you through your product's entire development life cycle. Our goal is to leverage cutting-edge technology to provide you with engaging, fulfilling digital products for your customers. Regardless of the size of your business, we can deliver solutions to help you rejuvenate your existing digital presence.</p>`,
     },
@@ -23,8 +24,32 @@ export default function Home() {
 
   return (
     <Layout>
-      <main className="page-wrapper text-center">
-            <h1>Coming soon ...</h1>
+      <main className="page-wrapper">
+        <HomeSlider />
+        <WhoWeAre />
+        <Process />
+        <section className="container py-5 mb-lg-2">
+          <div className="row py-2 py-md-4 py-lg-5">
+            <div className="col-xl-4 col-md-5 text-center text-md-start pt-md-2 pb-2 pb-md-0 mb-4 mb-md-0">
+              <div className="title-style-one mb-3">
+                <div className="upper-title">Services</div>{" "}
+                <h2 className="title">
+                  Software, App, and Website Development <span>Agency</span>{" "}
+                  Services
+                </h2>{" "}
+              </div>
+              <h2 className="pb-3 mb-1 mb-lg-3"></h2>
+            </div>
+            <div className="col-md-7 offset-xl-1">
+              <div className="accordion">
+                {accordionData.map(({ title, content }) => (
+                  <Accordion key={title} title={title} content={content} />
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+        <LetsTalk />
       </main>
     </Layout>
   );
