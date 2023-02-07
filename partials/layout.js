@@ -118,9 +118,9 @@ function Layout({ children, meta }) {
         />
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
-      <Header />
+      {/* <Header /> */}
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
