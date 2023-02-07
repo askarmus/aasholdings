@@ -8,6 +8,7 @@ import { WhoWeAre } from "../partials/who.we.are";
 export default function Home() {
   const accordionData = [
     {
+      
       title: "Web Development",
       content: ` <p> Ceybex is a premier website development agency that can guide you through your product's entire development life cycle. Our goal is to leverage cutting-edge technology to provide you with engaging, fulfilling digital products for your customers. Regardless of the size of your business, we can deliver solutions to help you rejuvenate your existing digital presence.</p>`,
     },
