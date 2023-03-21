@@ -8,44 +8,15 @@ export const Footer = () => (
           <div className="col-lg-4 col-xl-3 pe-xl-5 mb-5 mb-lg-0">
             <div className="pb-3"> </div>
             <p className="m-0 text-white">
-              Ceybex offers the full spectrum of custom software development
-              services to fit the varied needs of our customers. Build better
-              software, faster!
+              A premier Travels & Tours company committed to providing unique
+              and memorable travel experiences. We also offer overseas
+              recruitment services to help businesses hire skilled workers from
+              around the world
             </p>
           </div>
           <div className="col-lg-8 col-xl-9">
             <div className="row gy-5">
-              <div className="col-lg-4 col-6">
-                <h5 className="text-white footer-title-01 opacity-5">
-                  Services
-                </h5>
-
-                <ul className="list-unstyled footer-link-01 m-0">
-                  <li>
-                    <Link href="web-application-development">
-                      <a class="link-white">Web Application Development</a>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link href="microsoft-azure-cloud">
-                      <a class="link-white">Microsoft Azure Cloud</a>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link href="startup-product-development">
-                      <a class="link-white">Startup Product Development</a>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link href="legacy-modernization">
-                      <a class="link-white"> Legacy Modernization</a>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
+        
               <div className="col-lg-4 col-6">
                 <h5 className="text-white footer-title-01 opacity-5">Help</h5>
                 <ul className="list-unstyled footer-link-01 m-0">
@@ -57,9 +28,13 @@ export const Footer = () => (
                     </Link>
                   </li>
                   <li>
-                      <a className="link-white" href="https://www.linkedin.com/company/ceybex" target= "_blank">
-                        LinkedIn
-                      </a>
+                    <a
+                      className="link-white"
+                      href="https://www.facebook.com/profile.php?id=100087788949825"
+                      target="_blank"
+                    >
+                      FaceBook
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -91,18 +66,7 @@ export const Footer = () => (
       <hr class="mt-3 mb-3" />
       <div className="col-10 col-lg-8   mb-4 footer-location">
         <div className="row">
-          <div className="col-12 col-md-12 col-xl-3 pr-0 pl-xl-5">
-            <a href="/">
-              <img
-                width={114}
-                height={41}
-                src="assets/image/logo-white.png"
-                alt="mi logo"
-                className="footer-logo"
-                loading="lazy"
-              />
-            </a>
-          </div>
+ 
           <div className="col-12 col-md-6 col-xl-6 pr-0 pl-xl-5">
             <div className="communication-location r-communication-address mt-4 mb-4">
               <span className="d-flex">
@@ -112,14 +76,14 @@ export const Footer = () => (
                     alt="address"
                   />
                 </div>{" "}
-                Sri Lanka
+               Ampara
               </span>
-              <p>20 Galle Road, Wellawatte</p>
-              <p>Western Province</p>
+              <p>520/C  Main Street</p>
+              <p>Sainthamaruthu, Ampara, Sri Lanka</p>
               <p>Sri Lanka</p>
             </div>
           </div>
-          {/* <div className="col-12 col-md-6 col-xl-3 pr-0 pl-xl-0">
+          <div className="col-12 col-md-6 col-xl-3 pr-0 pl-xl-0">
             <div className="communication-location r-communication-address mt-4 mb-4">
               <span className="d-flex">
                 <div className="footer-icons">
@@ -128,13 +92,13 @@ export const Footer = () => (
                     alt="address"
                   />
                 </div>{" "}
-                Sri Lanka
+                Colombo
               </span>
-              <p>20 Galle Road, Wellawatte</p>
-              <p>Western Province</p>
+              <p>189 Rajagiriya Road</p>
+              <p>Rajagiriya</p>
               <p>Sri Lanka</p>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

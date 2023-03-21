@@ -11,19 +11,22 @@ export const WhoWeAre = () => (
           </h2>{" "}
         </div>
 
+
         <p className="fs-lg pb-lg-3 mb-4">
-          Ceybex is a disruptive mobile and web app development company. We
-          create cutting edge apps and UX/UI designs to bring your brilliant
-          ideas to reality. Our team of hardened tech developers will be with
-          you in the twists and turns of app development. We are proud of our
-          professionalism and perfectionism while designing, programing and
-          deploying high quality mobile and web apps.
-        </p>
-        <p className="fs-lg pb-lg-3 mb-4">
-          The team can handle the most complex projects writing thousands of
-          lines of code, using modern frameworks and deploying finished projects
-          on App stores, Microsoft Azure, Amazon AWS or Google cloud.
-        </p>
+                  Welcome to AAS Holdings, a premier Travels &amp; Tours company
+                  committed to providing the best travel experiences to our
+                  customers. With years of experience in the industry, we have
+                  established ourselves as a trusted name in the world of
+                  travel.
+                </p>
+                <p className="fs-lg pb-lg-3 mb-4">
+                  At AAS Holdings, we specialize in designing unique and
+                  memorable tour packages that cater to the needs and interests
+                  of our customers. Whether you're looking for a relaxing beach
+                  vacation, a cultural tour, an adventure-packed trip, or a
+                  combination of all three, we've got you covered.
+                </p>
+ 
 
         <Link href="about-us">
           <a className="btn btn-primary   btn-lg">More about us</a>

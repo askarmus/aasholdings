@@ -4,11 +4,11 @@ import { TechStack } from "../partials/techstack";
 
 export default function HowWeWrok() {
   return (
-    <Layout meta={{ title: `Contact Us - Ceybex` }}>
+    <Layout meta={{ title: `Contact Us - AAS Holding` }}>
       <main className="page-wrapper">
         <PageInnerHeader
-          title={"Begins With A Hello."}
-          subTitle={"Send us your brief and learn how we work."}
+          title={"Get in Touch With us."}
+        
           showButton={false}
         />
         <section className="container pb-5 mb-lg-4 mb-xl-5">
@@ -21,9 +21,8 @@ export default function HowWeWrok() {
                 </h2>{" "}
               </div>
               <p className="fs-lg pb-2">
-                Have a&nbsp;project in&nbsp;mind? To&nbsp;request a&nbsp;quote
-                contact us&nbsp;directly or&nbsp;fill out the form and let
-                us&nbsp;know how we&nbsp;can help.
+              If your company need Sri Lankan worker then look no further, send in a request and we would get back to you within 24 Hours.
+
               </p>
             </div>
             {/* Contact form */}
@@ -106,10 +105,11 @@ export default function HowWeWrok() {
                 <li className="mb-3 mb-lg-4">
                   <span className="d-block fs-sm text-muted">Email</span>
                   <a
-                    href="mailto:team@ceybex.com"
+                    href="mailto:team@aasholding.lk"
                     className="nav-link d-inline-block fs-lg p-0"
                   >
-                    team@ceybex.com
+                    team@aasholding.lk <br></br>
+                    aasholdingprivatelimited@gmail.com
                   </a>
                 </li>
                 <li className="mb-3 mb-lg-4">
@@ -118,18 +118,31 @@ export default function HowWeWrok() {
                     href="tel:+94779059394"
                     className="nav-link d-inline-block fs-lg p-0"
                   >
-                    +94779059394
+                   +94777776646<br></br>
++94778082285<br></br>
++94672052285 <br></br>
                   </a>
                 </li>
                 <li className="mb-3 mb-lg-4">
-                  <span className="d-block fs-sm text-muted">Headquarters</span>
+                  <span className="d-block fs-sm text-muted">Ampara</span>
                   <div className="text-nav fs-lg fw-medium">
                     <p>
-                      20 Galle Road, Wellawatte <br></br> Western Province{" "}
-                      <br></br> Sri Lanka
+                      520/C <br></br> Main Street{" "}
+                      <br></br> Sainthamaruthu, Ampara, Sri Lanka
                     </p>
                   </div>
                 </li>
+
+                <li className="mb-3 mb-lg-4">
+                  <span className="d-block fs-sm text-muted">Colombo</span>
+                  <div className="text-nav fs-lg fw-medium">
+                    <p>
+                      189 <br></br> Rajagiriya Road{" "}
+                      <br></br> Rajagiriya, Sri Lanka
+                    </p>
+                  </div>
+                </li>
+
               </ul>
             </div>
             {/* Map */}
@@ -137,7 +150,7 @@ export default function HowWeWrok() {
               <div className="shadow-sm rounded-3 overflow-hidden">
                 <iframe
                   className="d-block"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.727252826348!2d103.96273341465358!3d1.3399752619805987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d1c80f66eeb%3A0xace18efe5bb29b50!2sSUTD%20Entrepreneurship%20Centre!5e0!3m2!1sen!2slk!4v1658888834821!5m2!1sen!2slk"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.4671081907754!2d81.8243440152325!3d7.41344161423308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae53f03af617293%3A0x13b4b12b528794b3!2s520%20Main%20St%2C%20Kalmunai%2032300!5e0!3m2!1sen!2slk!4v1679291102851!5m2!1sen!2slk"
                   height={460}
                   style={{ border: 0 }}
                   allowFullScreen=""

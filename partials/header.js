@@ -17,7 +17,7 @@ export function Header() {
       <div className="container px-3">
         <Link href="/">
           <a className="navbar-brand pe-3">
-            <img src="assets/image/logo.png" width={170} alt="Ceybex" />
+            <img src="assets/image/logo.png" width={200} alt="AAS Holding" />
           </a>
         </Link>
         <div
@@ -39,49 +39,14 @@ export function Header() {
                   <a class="nav-link menu-active">Home</a>
                 </Link>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  onClick={() => setServiceOpen(!isServiceOpen)}
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-                <ul
-                  className={`dropdown-menu ${isServiceOpen ? "show" : ""}`}
-                  aria-labelledby="navbarDropdown"
-                >
-                  <li>
-                    <Link href="web-application-development">
-                      <a class="dropdown-item">Web Application Development</a>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link href="microsoft-azure-cloud">
-                      <a class="dropdown-item">Microsoft Azure Cloud</a>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link href="startup-product-development">
-                      <a class="dropdown-item">Startup Product Development</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="legacy-modernization">
-                      <a class="dropdown-item">Legacy Modernization</a>
-                    </Link>
-                  </li>
-                </ul>
+              <li>
+                <Link href="/services">
+                  <a class="nav-link menu-active">Services</a>
+                </Link>
               </li>
               <li className="nav-item">
                 <Link href="how-we-work">
-                  <a className="nav-link">How we work</a>
+                  <a className="nav-link">How we Process</a>
                 </Link>
               </li>
 

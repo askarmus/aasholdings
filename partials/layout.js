@@ -31,7 +31,7 @@ function Layout({ children, meta }) {
         ></script>
 
         <title>
-          {meta?.title || "Custom software development & design - Ceybex"}
+          {meta?.title || "Overseas manpower, recruitment, travel and tours agency - AAS Holding"}
         </title>
 
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -42,14 +42,14 @@ function Layout({ children, meta }) {
         <meta
           name="twitter:title"
           content={
-            meta?.title || "Custom software development & design - Ceybex"
+            meta?.title || "Overseas manpower, recruitment, travel and tours agency - AAS Holding"
           }
         />
         <meta
           name="twitter:description"
           content={
             meta?.description ||
-            "A custom software development company from Sri Lanka specializing in Azure, React, Angular mobile development, cloud and DevOps services, digital product design."
+            "An overseas manpower, recruitment, travel, and tours agency offers services for individuals seeking employment opportunities or travel experiences abroad, including visa processing, job placement, and travel arrangements."
           }
         />
         <meta
@@ -68,14 +68,14 @@ function Layout({ children, meta }) {
         <meta
           property="og:title"
           content={
-            meta?.title || "Custom software development & design - Ceybex"
+            meta?.title || "Overseas manpower, recruitment, travel and tours agency - AAS Holding"
           }
         />
         <meta
           property="og:description"
           content={
             meta?.description ||
-            "A custom software development company from Sri Lanka specializing in Azure, React, Angular mobile development, cloud and DevOps services, digital product design."
+            "An overseas manpower, recruitment, travel, and tours agency offers services for individuals seeking employment opportunities or travel experiences abroad, including visa processing, job placement, and travel arrangements."
           }
         />
         <meta
@@ -86,16 +86,13 @@ function Layout({ children, meta }) {
           }
         />
 
-        <meta
-          property="og:url"
-          content={meta?.url || "https://www.stackify.me"}
-        />
+ 
 
         <meta
           name="description"
           content={
             meta?.description ||
-            "Comprehensive, community-driven list of essential fullstack interview questions. Whether you are a candidate or interviewer, these interview questions will help prepare you for your next fullstack interview ahead of time."
+            "An overseas manpower, recruitment, travel, and tours agency offers services for individuals seeking employment opportunities or travel experiences abroad, including visa processing, job placement, and travel arrangements."
           }
         />
 
@@ -118,9 +115,9 @@ function Layout({ children, meta }) {
         />
         <link rel="manifest" href="/site.webmanifest"></link>
       </Head>
-      {/* <Header /> */}
+      <Header />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

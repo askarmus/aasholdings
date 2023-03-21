@@ -67,12 +67,11 @@ export const HomeSlider = () => (
               />
               <div className="card-body position-relative zindex-5">
                 <h1 className="display-5 text-light pb-3 mb-3">
-                  Your vi­sion, <br></br> our ex­per­tise.
+                
+               Overseas Manpower, <br></br> Recruitment.
                 </h1>
                 <p className="fs-lg text-light opacity-70 mb-5">
-                  We’re an Sri Lankan soft­ware com­pany that ex­cels at
-                  de­sign­ing & de­vel­op­ing soft­ware so­lu­tions with the
-                  right mix of peo­ple, process & tools
+                To find the foreign and offshore opportunities to the Sri Lakan workers and get obtained the same to them in standard manners so they can get benefitted from.
                 </p>
                 <div className="d-flex flex-column flex-sm-row">
                   <Link href="contact-us">
@@ -97,17 +96,26 @@ export const HomeSlider = () => (
               <li className="d-flex align-items-center pb-1 mb-2">
                 <i className="bx bx-envelope fs-xl text-primary me-2" />
                 <a
-                  href="mailto:team@ceybex.com"
+                  href="mailto:team@aasholding.lk"
                   className="nav-link fw-normal p-0"
                 >
-                  team@ceybex.com
+                  team@aasholding.lk
                 </a>
               </li>
               <li className="d-flex align-items-center pb-1 mb-2">
                 <i className="bx bx-phone-call fs-xl text-primary me-2" />
-                <a href="tel:+94779059394" className="nav-link fw-normal p-0">
-                  +94779059394
+                <a href="tel:+94777776646" className="nav-link fw-normal p-0">
+                +94777776646,
                 </a>
+
+                <a href="tel:+94778082285" className="nav-link fw-normal p-0">
+                +94778082285,
+                </a>
+                <a href="tel:+94672052285" className="nav-link fw-normal p-0">
+                +94672052285
+                </a>
+
+
               </li>
             </ul>
           </div>

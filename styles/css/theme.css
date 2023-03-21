@@ -5,7 +5,7 @@
 :root{
     --text-color: #292929;
     --heading: #000;
-    --red-one: #FF2759;
+    --red-one: #008582;
     --red-two: #FB1B1D;
     --deep-cyan: #EBF1EE;
     --light-cyan: #F4FAFE;
@@ -192,7 +192,7 @@ sup{
    top:-0.5em
 }
 a{
-   color:#FF2759;
+   color:#008582;
    text-decoration:underline
 }
 a:hover{
@@ -6266,7 +6266,7 @@ textarea.form-control-lg{
    word-break:break-word !important
 }
 .text-primary{
-   color:#FF2759 !important
+   color:#008582 !important
 }
 .text-secondary{
    color:#eff2fc !important
@@ -14377,7 +14377,7 @@ img-comparison-slider:focus{
     font-size: 0.9rem;
 }
 .bg-prim {
-     background: #FF2759;;
+     background: #008582;;
 }
 
  
@@ -14424,11 +14424,11 @@ img-comparison-slider:focus{
   bottom: 2px;
 }
 .menu-active{
-  color:  #FF2759 !important;
+  color:  #008582 !important;
 }
 
 .bg-dark-red {
-    background-color:  #FF2759 !important;
+    background-color:  #008582 !important;
 }
 
 .bg-dark-light {
@@ -14436,8 +14436,8 @@ img-comparison-slider:focus{
 }
 .btn-primary-red {
     color: #000;
-    background-color: #FF2759;
-    border-color: #FF2759;
+    background-color: #008582;
+    border-color: #008582;
     box-shadow: unset;
 }
 

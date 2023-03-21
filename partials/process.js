@@ -6,17 +6,16 @@ export const Process = () => (
     />
     <div className="container pb-4  ">
       <div className="title-style-one mb-3 text-center text-md-start">
-        <div className="upper-title">Our Process</div>{" "}
+        <div className="upper-title">Services</div>{" "}
         <h2 className="title">
-          App <span>development</span> process.
+          Our <span>services</span>.
         </h2>{" "}
       </div>
 
       <div className="row align-items-center pb-5 mb-lg-2">
         <div className="col-md-8 text-center text-md-start">
           <p className="fs-lg text-muted mb-md-0">
-            Ceybex focus has been offshore software development, website
-            designing, website maintenance, website hosting and web development.
+         We are reputable overseas placement company, providing job training and trustworthy services. They offer expert visa and ticketing services, immigration consultancy, and placement guidance.
           </p>
         </div>
       </div>
@@ -29,10 +28,13 @@ export const Process = () => (
               alt="Icon"
             />
           </div>
-          <h3 className="h5 mb-2 mb-lg-0">UX/UI DESIGN</h3>
+          <h3 className="h5 mb-2 mb-lg-0">Overseas Placement</h3>
           <p>
-            In house team of designers creates user friendly and intutive
-            layouts
+          Renowned overseas placement agency in Kerala, providing trustworthy services and training to job aspirants.
+
+
+
+
           </p>
         </div>
         <div className="col text-center border-end">
@@ -43,10 +45,9 @@ export const Process = () => (
               alt="Icon"
             />
           </div>
-          <h3 className="h5 mb-2 mb-lg-0">MOBILE AND WEB APP DEVELOPMENT</h3>
+          <h3 className="h5 mb-2 mb-lg-0">Visa And Ticketing</h3>
           <p>
-            We have rich experience to convert your concepts into successful
-            apps
+          We offers reliable, flexible visa and ticketing services, providing expert advice and timely booking of flights with competitive prices.
           </p>
         </div>
         <div className="col text-center border-end">
@@ -57,8 +58,8 @@ export const Process = () => (
               alt="Icon"
             />
           </div>
-          <h3 className="h5 mb-2 mb-lg-0">DEPLOYMENT</h3>
-          <p>Deploy your apps on iTunes, Play store and Cloud based serviecs</p>
+          <h3 className="h5 mb-2 mb-lg-0">Immigration Services</h3>
+          <p>We offers immigration consultancy services in Sri Lanka, assisting candidates with paperwork and visa interviews, at affordable rates.</p>
         </div>
         <div className="col text-center">
           <div className="card d-table border-0 rounded-circle shadow-sm p-3 mx-auto mb-4">
@@ -68,10 +69,13 @@ export const Process = () => (
               alt="Icon"
             />
           </div>
-          <h3 className="h5 mb-2 mb-lg-0">MAINTENANACE</h3>
+          <h3 className="h5 mb-2 mb-lg-0">Placement Consultant</h3>
           <p>
-            We do fixes, upgrades and add new features after your mobile or web
-            app has been launched
+          We are a trusted placement consultant in Sri Lanka, offering guidance to job seekers and connecting them with suitable companies.
+
+
+
+
           </p>
         </div>
       </div>
