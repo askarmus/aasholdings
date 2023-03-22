@@ -32,9 +32,9 @@ export default function HowWeWrok() {
                 <p>
                   At AAS Holdings, we specialize in designing unique and
                   memorable tour packages that cater to the needs and interests
-                  of our customers. Whether you're looking for a relaxing beach
+                  of our customers. Whether you are looking for a relaxing beach
                   vacation, a cultural tour, an adventure-packed trip, or a
-                  combination of all three, we've got you covered.
+                  combination of all three, we have got you covered.
                 </p>
        
        
