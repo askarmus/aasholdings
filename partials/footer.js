@@ -21,10 +21,10 @@ export const Footer = () => (
                 <h5 className="text-white footer-title-01 opacity-5">Help</h5>
                 <ul className="list-unstyled footer-link-01 m-0">
                   <li>
-                    <Link href="contact-us">
-                      <a className="link-white" href="#">
+                    <Link href="contact-us" className="link-white">
+                      
                         Contact Us
-                      </a>
+                       
                     </Link>
                   </li>
                   <li>
@@ -44,14 +44,14 @@ export const Footer = () => (
                 </h5>
                 <ul className="list-unstyled footer-link-01 m-0">
                   <li>
-                    <Link href="how-we-work">
-                      <a class="link-white">How we works</a>
+                    <Link href="how-we-work" class="link-white">
+                     How we works 
                     </Link>
                   </li>
 
                   <li>
-                    <Link href="about-us">
-                      <a class="link-white">About Us</a>
+                    <Link href="about-us" class="link-white">
+                      About Us 
                     </Link>
                   </li>
                 </ul>

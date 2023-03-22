@@ -68,23 +68,23 @@ export const HomeSlider = () => (
               <div className="card-body position-relative zindex-5">
                 <h1 className="display-5 text-light pb-3 mb-3">
                 
-               Overseas Manpower, <br></br> Recruitment.
+                Global Recruitment <br></br>  for right talent.
+
+
+
+
                 </h1>
                 <p className="fs-lg text-light opacity-70 mb-5">
-                To find the foreign and offshore opportunities to the Sri Lakan workers and get obtained the same to them in standard manners so they can get benefitted from.
+                Our services cater to companies worldwide, delivering talented personnel to meet their recruitment needs efficiently
                 </p>
                 <div className="d-flex flex-column flex-sm-row">
-                  <Link href="contact-us">
-                    <a className="btn btn-primary shadow-primary btn-lg mb-3 mb-sm-0 me-sm-4">
+                  <Link href="contact-us" className="btn btn-primary shadow-primary btn-lg mb-3 mb-sm-0 me-sm-4">
                       Get a Free Consultation
-                    </a>
                   </Link>
 
-                  <Link href="about-us">
-                    <a href="#" className="btn btn-outline-light btn-lg">
+                  <Link href="about-us" className="btn btn-outline-light btn-lg">
                       Who we are
                       <i className="bx bx-right-arrow-alt fs-4 lh-1 ms-2 me-n1" />
-                    </a>
                   </Link>
                 </div>
               </div>

@@ -8,13 +8,10 @@ export const PageInnerHeader = ({ title, subTitle, showButton }) => (
         <p className="lead text-light text-left opacity-70 mb-3">{subTitle}</p>
         <h2 className="display-3 text-light pb-3 pb-lg-0 mb-lg-5">{title}</h2>
         {showButton ? (
-          <Link href="contact-us">
-            <a
-              href="#"
-              className="btn btn-primary shadow-primary btn-lg btn-outline"
-            >
+          <Link href="contact-us" className="btn btn-primary shadow-primary btn-lg btn-outline">
+            
               Free Consultation
-            </a>
+            
           </Link>
         ) : null}
       </div>

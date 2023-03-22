@@ -15,10 +15,8 @@ export function Header() {
   return (
     <header className="header navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div className="container px-3">
-        <Link href="/">
-          <a className="navbar-brand pe-3">
+        <Link href="/" className="navbar-brand pe-3">
             <img src="assets/image/logo.png" width={200} alt="AAS Holding" />
-          </a>
         </Link>
         <div
           id="navbarNav"
@@ -35,38 +33,38 @@ export function Header() {
           <div className="offcanvas-body">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li>
-                <Link href="/">
-                  <a class="nav-link menu-active">Home</a>
+                <Link class="nav-link" href="/">
+                Home
                 </Link>
               </li>
               <li>
-                <Link href="/services">
-                  <a class="nav-link menu-active">Services</a>
+                <Link class="nav-link" href="/services">
+                Services
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="how-we-work">
-                  <a className="nav-link">How we Process</a>
+                <Link class="nav-link" href="how-we-work">
+                How we Process
                 </Link>
               </li>
 
               <li className="nav-item">
-                <Link href="about-us">
-                  <a className="nav-link">About Us</a>
+                <Link class="nav-link " href="about-us">
+                About Us
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="contact-us">
-                  <a className="nav-link">Contact Us</a>
+                <Link class="nav-link" href="contact-us">
+                Contact Us
                 </Link>
               </li>
             </ul>
           </div>
           <div className="offcanvas-footer border-top">
-            <Link href="contact-us">
-              <a className="btn btn-primary-red w-100">
+            <Link class="nav-link menu-active btn btn-primary-red w-100" href="contact-us">
+               
                 Get a Free Consultation
-              </a>
+               
             </Link>
           </div>
         </div>
@@ -88,10 +86,8 @@ export function Header() {
             <span className="navbar-toggler-icon" />
           </button>
         </VisibilitySensor>
-        <Link href="contact-us">
-          <a className="btn btn-primary-red  fs-sm rounded d-none d-lg-inline-flex">
+        <Link href="contact-us" className="btn btn-primary-red  fs-sm rounded d-none d-lg-inline-flex">
             Get a Free Consultation
-          </a>
         </Link>
       </div>
       <div className={` ${isOpen ? "offcanvas-backdrop fade show" : ""}`}></div>

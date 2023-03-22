@@ -28,8 +28,8 @@ export const WhoWeAre = () => (
                 </p>
  
 
-        <Link href="about-us">
-          <a className="btn btn-primary   btn-lg">More about us</a>
+        <Link href="about-us" className="btn btn-primary   btn-lg">
+          More about us 
         </Link>
       </div>
       <div className="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
