@@ -53,7 +53,7 @@ function Layout({ children, meta }) {
           name="twitter:image"
           content={
             meta?.imageTwitter ||
-            "https://www.ceybex.com/assets/image/social-share.jpg"
+            "https://www.aasholding.lk/assets/image/social-share.jpg"
           }
         />
 
@@ -79,7 +79,7 @@ function Layout({ children, meta }) {
           property="og:image"
           content={
             meta?.imageFacebook ||
-            "https://www.ceybex.com/assets/image/social-share.jpg"
+            "https://www.aasholding.lk/assets/image/social-share.jpg"
           }
         />
 
