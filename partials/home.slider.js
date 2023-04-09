@@ -68,7 +68,7 @@ export const HomeSlider = () => (
               <div className="card-body position-relative zindex-5">
                 <h1 className="display-5 text-light pb-3 mb-3">
                 
-                Global Recruitment <br></br>  for right talent.
+                Manpower Recruitment <br></br> Consulting Agency.
 
 
 
