@@ -18,44 +18,6 @@ export default function HowWeWrok() {
             services to help businesses hire skilled workers from around the
             world
           </p>
-          <section className="container pt-5 mt-2 mt-md-4 mt-lg-5">
-            <div className="row pt-xl-3">
-              <div className="col-md-5 text-center text-md-start pb-5">
-     
-                <p>
-                  Welcome to AAS Holdings, a premier Travels &amp; Tours company
-                  committed to providing the best travel experiences to our
-                  customers. With years of experience in the industry, we have
-                  established ourselves as a trusted name in the world of
-                  travel.
-                </p>
-                <p>
-                  At AAS Holdings, we specialize in designing unique and
-                  memorable tour packages that cater to the needs and interests
-                  of our customers. Whether you are looking for a relaxing beach
-                  vacation, a cultural tour, an adventure-packed trip, or a
-                  combination of all three, we have got you covered.
-                </p>
-       
-       
-                <p>
-                  At AAS Holdings, we are dedicated to providing exceptional
-                  customer service, and we are always available to answer any
-                  questions or concerns you may have. We believe that every trip
-                  and every hire should be an unforgettable experience, and we
-                  look forward to helping you create memories that will last a
-                  lifetime.
-                </p>
-              </div>
-              <div className="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
-                <img
-                  src="/assets/image/about-us-img.jpg"
-                  className="rounded-3 shadow-sm"
-                  alt="Image"
-                />
-              </div>
-            </div>
-          </section>
           <section className="container pt-5 mt-2 mt-md-4 mt-lg-5 mb-5">
             <div className="row pt-xl-3">
             <div className="col-xl-6 col-md-7  pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
@@ -99,6 +61,45 @@ export default function HowWeWrok() {
 
             </div>
           </section>
+          <section className="container pt-5 mt-2 mt-md-4 mt-lg-5">
+            <div className="row pt-xl-3">
+              <div className="col-md-5 text-center text-md-start pb-5">
+     
+                <p>
+                  Welcome to AAS Holdings, a premier Travels &amp; Tours company
+                  committed to providing the best travel experiences to our
+                  customers. With years of experience in the industry, we have
+                  established ourselves as a trusted name in the world of
+                  travel.
+                </p>
+                <p>
+                  At AAS Holdings, we specialize in designing unique and
+                  memorable tour packages that cater to the needs and interests
+                  of our customers. Whether you are looking for a relaxing beach
+                  vacation, a cultural tour, an adventure-packed trip, or a
+                  combination of all three, we have got you covered.
+                </p>
+       
+       
+                <p>
+                  At AAS Holdings, we are dedicated to providing exceptional
+                  customer service, and we are always available to answer any
+                  questions or concerns you may have. We believe that every trip
+                  and every hire should be an unforgettable experience, and we
+                  look forward to helping you create memories that will last a
+                  lifetime.
+                </p>
+              </div>
+              <div className="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
+                <img
+                  src="/assets/image/about-us-img.jpg"
+                  className="rounded-3 shadow-sm"
+                  alt="Image"
+                />
+              </div>
+            </div>
+          </section>
+   
         </div>
         {/* <TechStack /> */}
       </main>

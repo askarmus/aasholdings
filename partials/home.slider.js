@@ -96,10 +96,10 @@ export const HomeSlider = () => (
               <li className="d-flex align-items-center pb-1 mb-2">
                 <i className="bx bx-envelope fs-xl text-primary me-2" />
                 <a
-                  href="mailto:team@aasholding.lk"
+                  href="mailto:aasholdingprivatelimited@gmail.com"
                   className="nav-link fw-normal p-0"
                 >
-                  team@aasholding.lk
+                  aasholdingprivatelimited@gmail.com
                 </a>
               </li>
               <li className="d-flex align-items-center pb-1 mb-2">

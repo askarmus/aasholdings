@@ -105,10 +105,10 @@ export default function HowWeWrok() {
                 <li className="mb-3 mb-lg-4">
                   <span className="d-block fs-sm text-muted">Email</span>
                   <a
-                    href="mailto:team@aasholding.lk"
+                    href="mailto:aasholdingprivatelimited@gmail.com"
                     className="nav-link d-inline-block fs-lg p-0"
                   >
-                    team@aasholding.lk <br></br>
+                    aasholdingprivatelimited@gmail.com <br></br>
                     aasholdingprivatelimited@gmail.com
                   </a>
                 </li>
